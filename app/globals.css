@@ -321,7 +321,57 @@ h6, .h6 {font-size: 12px !important; margin: 0 !important;}
   }
 }
 
+/* Страница Обо мне */
+.about-header {
+  background-color: #282c34;
 
+  & .desc {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    gap: 20px;
+  }
+}
+
+.about-info {
+  padding: 60px 0px;
+  background-color: var(--sapphire);
+
+  & .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    & .body {
+      color: var(--white);
+
+      & .info {
+        text-align: justify;
+      }
+
+      & .achievements {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding-left: 0px;
+        gap: 15px;
+
+        & .achievement {
+          padding: 15px;
+          border-radius: 10px;
+          user-select: none;
+          border: 1px solid var(--turquoise);
+          background-color: var(--light-sapphire);
+          transition: .3s all ease;
+
+          &:hover {
+            transform: translateY(-10px);
+          }
+        }
+      }
+    }
+  }
+}
 
 /* Кнопка Подняться наверх */
 .page_up {
@@ -436,6 +486,7 @@ h6, .h6 {font-size: 12px !important; margin: 0 !important;}
   }
 
   .fourth-window {
+    padding-top: 40px;
     padding-bottom: 80px;
 
     & .wrapper {
@@ -447,6 +498,10 @@ h6, .h6 {font-size: 12px !important; margin: 0 !important;}
     & .wrapper {
       padding: 0px 20px;
     }
+  }
+
+  .about-info {
+    padding: 40px 0px;
   }
 
   .page_up {
