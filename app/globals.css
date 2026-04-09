@@ -32,7 +32,7 @@
 }
 
 /* Размеры шрифта */
-h1, .h1 {font-size: 95px !important; margin: 0 !important;}
+h1, .h1 {font-size: 95px; margin: 0 !important;}  
 h2, .h2 {font-size: 32px !important; margin: 0 !important;}
 h3, .h3 {font-size: 20px !important; margin: 0 !important;}
 h4, .h4 {font-size: 18px !important; margin: 0 !important;}
@@ -162,7 +162,7 @@ p {
         transition: .5s all ease;
 
         &:hover {
-          transform: translateY(-10px);
+          transform: translateY(-15px);
         }
       }
     }
@@ -196,6 +196,8 @@ p {
         background-color: var(--light-sapphire);
         border: 1px solid var(--opacity-green);
         border-radius: 10px;
+        user-select: none;
+        transition: .5s all ease;
         gap: 15px;
 
         & .info {
@@ -219,6 +221,10 @@ p {
             border: 1px solid var(--opacity-green);
             border-radius: 10px;
           }
+        }
+
+        &:hover {
+          transform: translateY(-15px);
         }
       }
     }
