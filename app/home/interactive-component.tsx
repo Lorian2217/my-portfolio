@@ -86,11 +86,11 @@ export default function InteractiveComponent() {
 
       <section className="second-window window">
           <div className="wrapper">
-              <div className="header row flex-column align-items-center justify-content-center mx-0">
-                  <div className="col-12">
+              <div className="header flex flex-col items-center justify-center">
+                  <div className="md:w-2xl lg:w-4xl">
                     <h2 className="ff-SemiBold text-turquoise">Превращаю ваши идеи в огранённые решения</h2>
                   </div>
-                  <div className="col-xl-8">
+                  <div className="md:w-2xl">
                       <h3 className="text-white">Я увлечён созданием элегантных решений, которые решают реальные проблемы пользователей</h3>
                   </div>
               </div>
@@ -134,11 +134,11 @@ export default function InteractiveComponent() {
 
       <section className="third-window window">
         <div className="wrapper">
-          <div className="header row flex-column align-items-center justify-content-center mx-0">
-            <div className="col-12">
+          <div className="header flex flex-col items-center justify-center">
+            <div className="md:w-2xl lg:w-4xl">
               <h2 className="ff-SemiBold text-turquoise">Проекты</h2>
             </div>
-            <div className="col-xl-8">
+            <div className="md:w-2xl">
               <h3 className="text-white">Список проектов которые я реализовал или помогал в их разработке, продвижении</h3>
             </div>
           </div>
@@ -268,11 +268,11 @@ export default function InteractiveComponent() {
 
       <section className="services">
         <div className="wrapper">
-          <div className="header row flex-column align-items-center justify-content-center mx-0">
-            <div className="col-12">
+          <div className="header flex flex-col items-center justify-center">
+            <div className="md:w-2xl lg:w-4xl">
               <h2 className="ff-SemiBold text-turquoise">Услуги</h2>
             </div>
-            <div className="col-xl-8">
+            <div className="md:w-2xl">
               <h3 className="text-white">Стоимость и сроки обговариваются с каждым клиентом индивидуально, в списке указана стартовая цена</h3>
             </div>
           </div>

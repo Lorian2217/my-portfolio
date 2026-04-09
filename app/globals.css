@@ -67,6 +67,10 @@ h6, .h6 {font-size: 12px !important; margin: 0 !important;}
   min-height: 100vh;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
 /* Главная страница */
 /* Первый экран */
 .first-window {
@@ -171,12 +175,12 @@ h6, .h6 {font-size: 12px !important; margin: 0 !important;}
 
 /* Третий экран */
 .third-window {
-  padding: 60px 0px;
   background-color: #282c34;
 
   & .wrapper {
     display: flex;
     flex-direction: column;
+    padding: 60px 0px;
     gap: 35px;
 
     & .header {
@@ -345,10 +349,6 @@ h6, .h6 {font-size: 12px !important; margin: 0 !important;}
     & .body {
       color: var(--white);
 
-      & .info {
-        text-align: justify;
-      }
-
       & .achievements {
         display: flex;
         flex-direction: column;
@@ -368,9 +368,17 @@ h6, .h6 {font-size: 12px !important; margin: 0 !important;}
             transform: translateY(-10px);
           }
         }
+
+        & a {
+          border-bottom: 1px solid var(--white);
+        }
       }
     }
   }
+}
+
+.footer-menu {
+  display: none;
 }
 
 /* Кнопка Подняться наверх */
@@ -400,30 +408,31 @@ h6, .h6 {font-size: 12px !important; margin: 0 !important;}
 
   .second-window {
     & .wrapper {
-      padding: 0px 20px;
+      padding: 40px 25px;
     }
   }
 
   .third-window {
     & .wrapper {
-      padding: 0px 25px;
+      padding: 40px 25px;
     }
 
   }
 
   .fourth-window {
     & .wrapper {
-      padding: 0px 25px;
+      padding: 40px 25px;
     }
   }
 
   .services {
-    padding: 60px 0px;
     background-color: var(--sapphire);
+    padding: 0px;
 
     & .wrapper {
       display: flex;
       flex-direction: column;
+      padding: 40px 25px;
       gap: 35px;
 
       & .header {
@@ -435,6 +444,14 @@ h6, .h6 {font-size: 12px !important; margin: 0 !important;}
       & .column {
         height: auto;
       }
+    }
+  }
+
+  .about-info {
+    padding: 0px;
+
+    & .wrapper {
+      padding: 40px 25px;
     }
   }
 }
@@ -474,10 +491,10 @@ h6, .h6 {font-size: 12px !important; margin: 0 !important;}
   }
 
   .third-window {
-    padding: 60px 0px;
+    padding: 0px;
 
     & .wrapper {
-      padding: 0px 20px;
+      padding: 40px 20px;
 
       & .header {
         --bs-gutter-x: 0px;
@@ -496,12 +513,14 @@ h6, .h6 {font-size: 12px !important; margin: 0 !important;}
 
   .services {
     & .wrapper {
-      padding: 0px 20px;
+      padding: 40px 20px; 
     }
   }
 
   .about-info {
-    padding: 40px 0px;
+    & .wrapper {
+      padding: 40px 20px;
+    }
   }
 
   .page_up {
@@ -518,8 +537,8 @@ h6, .h6 {font-size: 12px !important; margin: 0 !important;}
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 5px 20px;
     background-color: var(--dark-sapphire);
+    padding: 5px 20px;
 
     & .link {
       display: flex;

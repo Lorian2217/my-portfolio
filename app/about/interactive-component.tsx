@@ -1,4 +1,4 @@
-"use client" 
+"use client"
 
 import "../globals.css";
 
@@ -7,15 +7,44 @@ import tg from '../../public/img/logo/tg-logo.png';
 import max from '../../public/img/logo/max-logo.png';
 
 import kokushibo from '../../public/img/About/selfie.png';
+import wheel from '../../public/img/mahoraga-wheel.png';
 
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function InteractiveComponent() {
+  const [visible, setVisible] = useState(false);
+  const [rotation, setRotation] = useState(0);
+
+  useEffect(() => {
+    function trackScroll() {
+      const scrolled = window.pageYOffset;
+      const coords = document.documentElement.clientHeight;
+
+      if (scrolled > coords) {
+        setVisible(true);
+        setRotation(scrolled / 2);
+      } else {
+        setVisible(false);
+      }
+    }
+
+    window.addEventListener("scroll", trackScroll);
+
+    return () => {
+      window.removeEventListener("scroll", trackScroll);
+    };
+  }, []);
+
+  function goTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   return (
     <div className="App">
       <section className="about-header window">
-        <div className="flex flex-col md:flex-row items-center justify-center text-white gap-4 md:gap-x-8 px-4 md:px-0">
-          <div className="size-full md:w-2xl">
+        <div className="flex flex-col md:flex-row items-center justify-center text-white gap-4 md:gap-x-5 lg:gap-x-8 px-4 md:px-0">
+          <div className="w-xs md:w-xs lg:w-md xl:w-2xl">
             <div className="desc">
               <h1>Обо мне</h1>
               <p>
@@ -24,7 +53,7 @@ export default function InteractiveComponent() {
               </p>
             </div>
           </div>
-          <div className="size-full md:w-2xl">
+          <div className="w-xs md:w-xs lg:w-md xl:w-2xl">
             <Image src={kokushibo} alt="Профиль" loading="eager" />
           </div>
         </div>
@@ -36,9 +65,9 @@ export default function InteractiveComponent() {
             <h2 className="text-turquoise">Моя история</h2>
           </div>
           <div className="body">
-            <div className="flex flex-col md:flex-row items-start justify-center text-white gap-4 md:gap-x-8 px-4 md:px-0">
+            <div className="flex flex-col md:flex-row items-start justify-center text-white md:gap-x-5 lg:gap-x-8 md:px-0">
               <div className="size-full md:w-xl">
-                <div className="info">
+                <div className="info text-justify">
                   <h3 className="pb-3 text-center">Начало пути</h3>
                   <p>Моё увлечение веб-разработкой началось ещё в школе, когда я впервые попробовал создавать свои сайты. Сначала это были простые страницы с HTML и CSS, но уже тогда я понял, как интересно превращать идеи в что-то, что реально работает и видимо пользователю. Каждый новый проект давал маленькие победы и одновременно учил меня решать проблемы, которые на первый взгляд казались сложными.</p>
                   <p>С течением времени я погрузился в JavaScript и современные фреймворки, такие как React, и понял, что программирование — это не только про код, но и про логику, дизайн и удобство для людей. Создание интерфейсов, которые не просто работают, а приносят удовольствие пользователю, стало для меня настоящей целью.</p>
@@ -103,6 +132,10 @@ export default function InteractiveComponent() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className={`page_up ${visible ? "active" : ""}`} onClick={goTop} style={{ transform: `rotate(${rotation}deg)` }} >
+        <Image src={wheel} alt="Наверх" />
       </section>
     </div>
   );
