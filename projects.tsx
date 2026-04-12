@@ -63,4 +63,25 @@ export const projects = [
     description: "Шахматная школа, основанная международным мастером Яном Джумагалиевым.",
     features: ["Wordpress"],
   },
+  {
+    title: "Техника-М",
+    image: "/img/projects/tehnika-logo.png",
+    link: "https://tehnika-m.ru/",
+    description: "Интернет-магазин бытовой техники Tehnika-M — это компания, которая предлагает широкий ассортимент техники для дома и кухни.",
+    features: ["Bitrix"],
+  },
+  {
+    title: "Вистал",
+    image: "/img/projects/vistal-logo.png",
+    link: "https://vistaltlt.ru/",
+    description: "Производитель комплектующих для очистных сооружений и изделий из полимерных и композитных материалов (в т.ч. жироуловители), а также оказание услуг по проектированию, монтажу и обслуживанию очистных систем.",
+    features: ["Wordpress"],
+  },
+  {
+    title: "Омникомм",
+    image: "/img/projects/omnicomm-logo.png",
+    link: "https://omnicomm.pro/",
+    description: "Omnicomm — крупный российский разработчик и производитель систем спутникового мониторинга транспорта на базе технологий ГЛОНАСС/GPS, а также оборудования для контроля расхода топлива.",
+    features: ["Bitrix"],
+  },
 ];

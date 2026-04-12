@@ -59,7 +59,7 @@ export default function InteractiveComponent() {
             {projects.map((item, index) => (
               <div className="item" key={index}>
                 <div className="flex items-start justify-between">
-                  <Image src={item.image} alt={item.title} width={35} height={35}  />
+                  <Image className="w-auto" src={item.image} alt={item.title} width={100} height={40} quality={90} />
                   <a href={item.link} rel="noreferrer" target="_blank" className="h6 text-white">
                     <Image src={link} alt={item.title} width={24} height={24} />
                   </a>

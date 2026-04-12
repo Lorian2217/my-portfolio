@@ -10,19 +10,10 @@ import vk from '../../public/img/logo/vk-logo.png';
 import tg from '../../public/img/logo/tg-logo.png';
 import max from '../../public/img/logo/max-logo.png';
 
-import termoland from '../../public/img/projects/termoland-logo.png';
-import mrc from '../../public/img/projects/mrc-logo.png';
-import allure from '../../public/img/projects/allure-logo.png';
-import grand from '../../public/img/projects/grand-logo.png';
-import motoxmoto from '../../public/img/projects/motoxmoto-logo.png';
-import tara from '../../public/img/projects/tara-logo.png';
-import beltona from '../../public/img/projects/beltona-logo.png';
-import atextil from '../../public/img/projects/atextil-logo.png';
-import fenomen from '../../public/img/projects/fenomen-logo.png';
-
 import wheel from '../../public/img/mahoraga-wheel.png';
 
 import Image from "next/image";
+import { projects } from "../../projects";
 import { useEffect, useState } from "react";
 
 export default function InteractiveComponent() {
@@ -143,123 +134,37 @@ export default function InteractiveComponent() {
             </div>
           </div>
           <div className="body container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            <div className="item">
-              <div className="flex items-start justify-between">
-                <Image src={termoland} alt="termoland" />
-                <a href="https://termoland.ru/" rel="noreferrer" target="_blank" className="h6 text-white"><Image src={link} alt="chain" /></a>
-              </div>
-              <div className="info">
-                <h4 className="ff-Bold text-white">Termoland</h4>
-                <span className="ff-Light text-white text-justify">Федеральная сеть Городских курортов с фитнесом, предоставляющих уникальную возможность совмещать урбанистический стиль жизни с роскошью курортного отдыха.</span>
-                <div className="features-list h5">
-                  <div className="h6 feature text-white">Bitrix</div>
+            {projects.slice(0, 10).map((item, index) => (
+              <div className="item" key={index}>
+                <div className="flex items-start justify-between">
+                  <Image className="w-auto" src={item.image} alt={item.title} width={100} height={40} quality={90} />
+                  <a href={item.link} rel="noreferrer" target="_blank" className="h6 text-white">
+                    <Image src={link} alt={item.title} width={24} height={24} />
+                  </a>
                 </div>
+
+                <div className="info">
+                  <h3 className="h4 ff-Bold text-white">{item.title}</h3>
+                  <span className="ff-Light text-white text-justify"> {item.description} </span>
+                </div>
+
+                <div className="features-list h5">
+                  {item.features.map((feature, i) => (
+                    <div key={i} className="h6 feature text-white">
+                      {feature}
+                    </div>
+                  ))}
+                </div>
+
+                {item.note && (
+                  <sub className="text-white">{item.note}</sub>
+                )}
               </div>
-            </div>
+            ))}
             <div className="item">
-              <div className="flex items-start justify-between">
-                <Image src={mrc} alt="mrc" />
-                <a href="https://mrc-club.ru/" rel="noreferrer" target="_blank" className="h6 text-white"><Image src={link} alt="chain" /></a>
-              </div>
-              <div className="info">
-                <h4 className="ff-Bold text-white">MRC-club</h4>
-                <span className="ff-Light text-white text-justify">MRC-club — это инновационная экосистема, созданная с учетом потребностей PR-специалистов, опытных спикеров и представителей СМИ.</span>
-              </div>
-              <div className="features-list h5">
-                  <div className="h6 feature text-white">Joomla*</div>
-                  <div className="h6 feature text-white">React</div>
-              </div>
-              <sub className="text-white">*Ранее сайт был на CMS Joomla</sub>
-            </div>
-            <div className="item">
-              <div className="flex items-start justify-between">
-                <Image src={allure} alt="allure" />
-                <a href="https://allure-arkhyz.ru/" rel="noreferrer" target="_blank" className="h6 text-white"><Image src={link} alt="chain" /></a>
-              </div>
-              <div className="info">
-                <h4 className="ff-Bold text-white">Allure Lodge</h4>
-                <span className="ff-Light text-white text-justify">Allure Lodge – место, где первозданная природа гор встречается с современным кавказским гостеприимством, создавая уникальное пространство для незабываемого семейного отдыха.</span>
-              </div>
-              <div className="features-list h5">
-                  <div className="h6 feature text-white">Bitrix</div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="flex items-start justify-between">
-                <Image src={grand} alt="grand" />
-                <a href="https://grand-mech.ru/" rel="noreferrer" target="_blank" className="h6 text-white"><Image src={link} alt="chain" /></a>
-              </div>
-              <div className="info">
-                  <h4 className="ff-Bold text-white">Гранд-Мех</h4>
-                  <span className="ff-Light text-white text-justify">Услуги по мехобработке, металлообработке на чпу станках и универсальных станках изделий из стали, алюминия, пластмассы под заказ.</span>
-              </div>
-              <div className="features-list h5">
-                  <div className="h6 feature text-white">Joomla</div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="flex items-start justify-between">
-                <Image src={beltona} alt="beltona" />
-                <a href="https://beltona.ru/" rel="noreferrer" target="_blank" className="h6 text-white"><Image src={link} alt="chain" /></a>
-              </div>
-              <div className="info">
-                <h4 className="ff-Bold text-white">Бельтона</h4>
-                <span className="ff-Light text-white text-justify">«Beltona» — производитель современной и стильной брендированной упаковки для различных отраслей.</span>
-              </div>
-              <div className="features-list h5">
-                  <div className="h6 feature text-white">Joomla</div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="flex items-start justify-between">
-                <Image src={tara} alt="tara" />
-                <a href="https://tara-ts.ru/" rel="noreferrer" target="_blank" className="h6 text-white"><Image src={link} alt="chain" /></a>
-              </div>
-              <div className="info">
-                <h4 className="ff-Bold text-white">Тосол Синтез</h4>
-                <span className="ff-Light text-white text-justify">Завод пластиковой тары в Москве — изготовление и продажа тары оптом: канистры, емкости, пищевая тара, тара для бытовой химии и косметики.</span>
-              </div>
-              <div className="features-list h5">
-                <div className="h6 feature text-white">Evoluton</div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="flex items-start justify-between">
-                <Image src={motoxmoto} alt="motoxmoto" />
-                <a href="https://motoxmoto.ru/" rel="noreferrer" target="_blank" className="h6 text-white"><Image src={link} alt="chain" /></a>
-              </div>
-              <div className="info">
-                <h4 className="ff-Bold text-white">Motoxmoto</h4>
-                <span className="ff-Light text-white text-justify">Магазин мотоэкипировки в Москве. Мотоэкипировка, произведенную по заказу и от сторонних производителей.</span>
-              </div>
-              <div className="features-list h5">
-                  <div className="h6 feature text-white">Wordpress</div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="flex items-start justify-between">
-                <Image src={atextil} alt="atextil" />
-                <a href="https://atextil.ru/" rel="noreferrer" target="_blank" className="h6 text-white"><Image src={link} alt="chain" /></a>
-              </div>
-              <div className="info">
-                <h4 className="ff-Bold text-white">А-Текстиль</h4>
-                <span className="ff-Light text-white text-justify">«А-Текстиль» — широкий ассортимент тканей, материалов для шитья и швейной фурнитуры.</span>
-              </div>
-              <div className="features-list h5">
-                  <div className="h6 feature text-white">Bitrix</div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="flex items-start justify-between">
-                <Image src={fenomen} alt="fenomen" />
-                <a href="https://fenomen-chess.ru/" rel="noreferrer" target="_blank" className="h6 text-white"><Image src={link} alt="chain" /></a>
-              </div>
-              <div className="info">
-                <h4 className="ff-Bold text-white">Феномен</h4>
-                <span className="ff-Light text-white text-justify">Шахматная школа, основанная международным мастером Яном Джумагалиевым.</span>
-              </div>
-              <div className="features-list h5">
-                <div className="h6 feature text-white">Wordpress</div>
+              <div className="flex flex-col items-center justify-end h-full gap-y-8">
+                <h3 className="h4 ff-Bold text-white">Хотите посмотреть все проекты?</h3>
+                <a href="/projects" className="flex items-center justify-center w-full bg-yellow h3 text-white rounded-sm py-2">Перейти</a>
               </div>
             </div>
           </div>

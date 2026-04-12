@@ -54,6 +54,8 @@ h6, .h6 {font-size: 12px !important; margin: 0 !important;}
 .text-sapphire {color: var(--sapphire);}
 .text-light-sapphire {color: var(--light-sapphire);}
 
+.bg-yellow {background-color: var(--yellow);}
+
 /* Общие классы */
 .App {
   text-align: center;
