@@ -547,6 +547,7 @@ p {
     justify-content: space-between;
     background-color: var(--dark-sapphire);
     padding: 5px 20px;
+    z-index: 1;
 
     & .link {
       display: flex;
