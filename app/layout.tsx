@@ -1,26 +1,55 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Inter } from "next/font/google";
 import Image from "next/image";
 import Script from 'next/script';
-import "./globals.css";
 
-import home from '../public/img/icons/footer-menu/home-icon.png';
-import project from '../public/img/icons/footer-menu/project-icon.png';
-import about from '../public/img/icons/footer-menu/about-icon.png';
+import ModalProvider from "./providers/modal-provider";
+import Header from './components/header';
+import Footer from './components/footer';
+import LeadModal from './components/modal';
+
+// Подключаем стили
+// import "./globals.css";
+
+// Иконки
+// import home from '../public/img/icons/footer-menu/home-icon.png';
+// import project from '../public/img/icons/footer-menu/project-icon.png';
+// import about from '../public/img/icons/footer-menu/about-icon.png';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
-}); 
+});
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
+const inter = Inter({
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  subsets: ['latin', 'cyrillic'],
+});
+
 export const metadata: Metadata = {
-  title: "Данила Мохнаткин",
-  description: "Портфолио Веб-разработчика Мохнаткина Данилы",
+  title: 'Разработка сайтов на React, Next.js и Bitrix - Lorian',
+  description: 'Разработка сайтов, лендингов и веб-приложений на React, Next.js, Bitrix и CMS. SEO-структура, формы, аналитика, интеграции и поддержка.',
+
+  openGraph: {
+    title: 'Разработка сайтов на React, Next.js и Bitrix - Lorian',
+    description: 'Разработка сайтов, лендингов и веб-приложений на React, Next.js, Bitrix и CMS. SEO-структура, формы, аналитика, интеграции и поддержка.',
+    url: 'https://lorian.su/',
+    siteName: 'Lorian',
+    locale: 'ru_RU',
+    type: 'website',
+  },
+  alternates: {
+    canonical: '/',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
@@ -31,7 +60,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`scroll-smooth`}
     >
       <head>
         <Script
@@ -61,9 +90,12 @@ export default function RootLayout({
         />
         <meta name="google-site-verification" content="amAprgHEm7IChbfXtZoBV_nLo16wz84gomSujKPSLOs" />
       </head>
-      <body className="min-h-full flex flex-col">
+      <body className={`${inter.className} font-sans text-slate-100 antialiased`}>
+        <Header />
+
         {children}
-        <section className="footer-menu">
+
+        {/* <section className="footer-menu">
           <a href="/" rel="noreferrer" className="text-decoration-none link">
             <Image src={home} alt="Главная" />
             <span className="text-white">Главная</span>
@@ -76,7 +108,11 @@ export default function RootLayout({
             <Image src={about} alt="Обо мне" />
             <span className="text-white">Обо мне</span>
           </a>
-        </section>
+        </section> */}
+
+          <ModalProvider />
+          <LeadModal />
+        <Footer />
       </body>
     </html>
   );

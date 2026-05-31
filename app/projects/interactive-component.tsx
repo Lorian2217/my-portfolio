@@ -2,136 +2,300 @@
 
 import "../globals.css";
 
-import link from '../../public/img/icons/chain-marker.png';
+import Link from 'next/link';
 
-import vk from '../../public/img/logo/vk-logo.png';
-import tg from '../../public/img/logo/tg-logo.png';
-import max from '../../public/img/logo/max-logo.png';
-
-import wheel from '../../public/img/mahoraga-wheel.png';
-
-import Image from "next/image";
-import { projects } from "../../projects";
-import { useEffect, useState } from "react";
 
 export default function InteractiveComponent() {
-  const [visible, setVisible] = useState(false);
-  const [rotation, setRotation] = useState(0);
-
-  useEffect(() => {
-    function trackScroll() {
-      const scrolled = window.pageYOffset;
-      const coords = document.documentElement.clientHeight;
-
-      if (scrolled > coords) {
-        setVisible(true);
-        setRotation(scrolled / 2);
-      } else {
-        setVisible(false);
-      }
-    }
-
-    window.addEventListener("scroll", trackScroll);
-
-    return () => {
-      window.removeEventListener("scroll", trackScroll);
-    };
-  }, []);
-
-  function goTop() {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-
   return (
-    <div className="App">
-      <section className="third-window window">
-        <div className="wrapper">
-          <div className="header flex flex-col items-center justify-center">
-            <div className="md:w-2xl lg:w-4xl">
-              <h1 className="h2 ff-SemiBold text-turquoise">Реализованные проекты</h1>
-            </div>
-            <div className="md:w-2xl">
-              <h2 className="h3 text-white">Список проектов которые я реализовал или помогал в их разработке, продвижении</h2>
+    <main>
+      <section className="relative overflow-hidden px-4 pb-16 pt-32 sm:px-6 lg:px-8 lg:pb-24 lg:pt-40">
+        <div className="absolute left-1/2 top-24 -z-10 h-80 w-80 -translate-x-1/2 rounded-full bg-cyan-300/20 blur-3xl"></div>
+        <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.08fr_.92fr] lg:items-center">
+          <div>
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-sm text-cyan-100"><span className="h-2 w-2 rounded-full bg-emerald-300"></span>Разработка, SEO-структура, интеграции и поддержка</div>
+            <h1 className="max-w-5xl text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">Проекты и кейсы разработки сайтов</h1>
+            {/* Для лучшего SEO каждый крупный проект можно позже вынести в отдельную страницу кейса. */}
+            <p className="mt-7 max-w-3xl text-lg leading-8 text-slate-300">Портфолио отражает мой опыт в разных нишах: городские курорты, PR-сервисы, отдых, производство, образование, e-commerce и B2B.</p>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <button onClick={() => window.dispatchEvent(new Event("openLeadModal"))} className="rounded-full bg-cyan-300 px-7 py-4 font-bold text-slate-950 transition hover:bg-cyan-200">Получить оценку</button>
+              <a href="#projects" className="rounded-full border border-white/15 px-7 py-4 text-center font-semibold transition hover:border-cyan-300/50 hover:text-cyan-200">Смотреть проекты</a>
             </div>
           </div>
-          <div className="body container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            {/* Для ограничения количества выводимых элементов, использовать slice(0, 6) вот так projects.slice(0, 6).map */}
-            {projects.map((item, index) => (
-              <div className="item" key={index}>
-                <div className="flex items-start justify-between">
-                  <Image className="w-auto" src={item.image} alt={item.title} width={100} height={40} quality={90} />
-                  <a href={item.link} rel="noreferrer" target="_blank" className="h6 text-white">
-                    <Image src={link} alt={item.title} width={24} height={24} />
-                  </a>
-                </div>
-
-                <div className="info">
-                  <h3 className="h4 ff-Bold text-white">{item.title}</h3>
-                  <span className="ff-Light text-white text-justify"> {item.description} </span>
-                </div>
-
-                <div className="features-list h5">
-                  {item.features.map((feature, i) => (
-                    <div key={i} className="h6 feature text-white">
-                      {feature}
-                    </div>
-                  ))}
-                </div>
-
-                {item.note && (
-                  <sub className="text-white">{item.note}</sub>
-                )}
+          <div className="glass rounded-[2rem] p-6 shadow-2xl shadow-cyan-950/30">
+            <p className="text-sm font-bold uppercase tracking-[.22em] text-cyan-200">Что будет на выходе</p>
+            {/* Циклом вывести */}
+            <div className="mt-6 grid gap-4 sm:grid-cols-2">
+              <div className="rounded-3xl bg-white/[.06] p-5">
+                <span className="text-3xl font-black">01</span>
+                <p className="mt-2 font-bold">Понятная структура</p>
+                <p className="mt-2 text-sm text-slate-400">Блоки под пользователя, рекламу и поиск.</p>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="fourth-window">
-        <div className="wrapper">
-          <div className="header flex flex-col items-center justify-center">
-            <div className="md:w-2xl lg:w-4xl">
-              <h2 className="ff-SemiBold text-turquoise">Как связаться</h2>
-            </div>
-            <div className="md:w-2xl">
-              <h3 className="text-white">Давайте вместе создадим продукты, которые изменят мир к лучшему</h3>
-            </div>
-          </div>
-          <div className="body">
-            <div className="flex flex-col md:flex-row items-start justify-center text-white gap-4 md:gap-x-8">
-              <div className="size-full md:w-xl">
-                <div className="links">
-                  <h4>Меня можно найти здесь</h4>
-                  <a href="https://max.ru/u/f9LHodD0cOJzi0W11t8UZ1PekS8EFQd3SP4Qmrp2pwIPIK_rT7PEs6qr_x8" target="_blank" rel="noreferrer" className="link text-white">
-                    <div><Image src={max} alt="max" /></div>
-                    <div>Max</div>
-                  </a>
-                  <a href="https://vk.com/sucun_sin" target="_blank" rel="noreferrer" className="link text-white">
-                    <div><Image src={vk} alt="vk" /></div>
-                    <div>Вконтакте</div>
-                  </a>
-                  <a href="https://t.me/Lorian2217" target="_blank" rel="noreferrer" className="link text-white">
-                    <div><Image src={tg} alt="tg" /></div>
-                    <div>Telegram</div>
-                  </a>
-                </div>
+              <div className="rounded-3xl bg-white/[.06] p-5">
+                <span className="text-3xl font-black">02</span>
+                <p className="mt-2 font-bold">Быстрая верстка</p>
+                <p className="mt-2 text-sm text-slate-400">Tailwind, адаптив и аккуратные компоненты.</p>
               </div>
-              <div className="size-full md:w-xl">
-                <div className="info">
-                  <div className="text">
-                    <span>Доступен для фриланс-проектов. Давайте обсудим, как будем сотрудничать!</span>
-                  </div>
-                  <a href="tel:+79397091744" className="btn btn-call d-block h3 text-dark rounded-sm">Связаться со мной</a>
-                </div>
+              <div className="rounded-3xl bg-white/[.06] p-5">
+                <span className="text-3xl font-black">03</span>
+                <p className="mt-2 font-bold">SEO-база</p>
+                <p className="mt-2 text-sm text-slate-400">Мета-теги, заголовки, schema.org, sitemap.</p>
+              </div>
+              <div className="rounded-3xl bg-white/[.06] p-5">
+                <span className="text-3xl font-black">04</span>
+                <p className="mt-2 font-bold">Заявки</p>
+                <p className="mt-2 text-sm text-slate-400">Формы, цели, Telegram, CRM и аналитика.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className={`page_up ${visible ? "active" : ""}`} onClick={goTop} style={{ transform: `rotate(${rotation}deg)` }} >
-        <Image src={wheel} alt="Наверх" />
+      <section className="px-4 py-20 sm:px-6 lg:px-8" id="projects">
+        <div className="mx-auto max-w-7xl">
+          <div className="max-w-3xl">
+            <p className="text-sm font-bold uppercase tracking-[.24em] text-cyan-200">Портфолио</p>
+            <h2 className="mt-4 text-3xl font-black tracking-tight sm:text-5xl">Проекты по нишам и технологиям</h2>
+            {/* <p className="mt-5 text-lg leading-8 text-slate-300">Для SEO и доверия проекты лучше постепенно расширять в полноценные кейсы: задача, стартовая точка, стек, выполненные работы, результат и ссылка на сайт.</p> */}
+          </div>
+          {/* Вывести циклом */}
+          <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
+              <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
+                <span className="rounded-full bg-slate-950/70 px-3 py-1 text-xs text-cyan-100">Bitrix</span>
+              </div>
+              <div className="p-7">
+                <h3 className="text-2xl font-black">Termoland</h3>
+                <p className="mt-2 text-sm text-cyan-100">Федеральная сеть городских курортов</p>
+                <p className="mt-4 leading-7 text-slate-300">Федеральная сеть Городских курортов с фитнесом, предоставляющих уникальную возможность совмещать урбанистический стиль жизни с роскошью курортного отдыха.</p>
+              </div>
+            </article>
+            <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
+              <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
+                <span className="rounded-full bg-slate-950/70 px-3 py-1 text-xs text-cyan-100">Joomla / React</span>
+              </div>
+              <div className="p-7">
+                <h3 className="text-2xl font-black">MRC-club</h3>
+                <p className="mt-2 text-sm text-cyan-100">Экосистема для PR, спикеров и СМИ</p>
+                <p className="mt-4 leading-7 text-slate-300">MRC-club — это инновационная экосистема, созданная с учетом потребностей PR-специалистов, опытных спикеров и представителей СМИ.</p>
+              </div>
+            </article>
+            <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
+              <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
+                <span className="rounded-full bg-slate-950/70 px-3 py-1 text-xs text-cyan-100">Bitrix</span>
+              </div>
+              <div className="p-7">
+                <h3 className="text-2xl font-black">Allure Lodge</h3>
+                <p className="mt-2 text-sm text-cyan-100">Сайт для семейного отдыха в горах</p>
+                <p className="mt-4 leading-7 text-slate-300">Allure Lodge – место, где первозданная природа гор встречается с современным кавказским гостеприимством, создавая уникальное пространство для незабываемого семейного отдыха.</p>
+              </div>
+            </article>
+            <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
+              <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
+                <span className="rounded-full bg-slate-950/70 px-3 py-1 text-xs text-cyan-100">Joomla</span>
+              </div>
+              <div className="p-7">
+                <h3 className="text-2xl font-black">Гранд-Мех</h3>
+                <p className="mt-2 text-sm text-cyan-100">Металлообработка и мехобработка</p>
+                <p className="mt-4 leading-7 text-slate-300">B2B-ниша, где нужны услуги, оборудование, техническая экспертиза и формы обращения.</p>
+              </div>
+            </article>
+            <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
+              <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
+                <span className="rounded-full bg-slate-950/70 px-3 py-1 text-xs text-cyan-100">Joomla</span>
+              </div>
+              <div className="p-7">
+                <h3 className="text-2xl font-black">Бельтона</h3>
+                <p className="mt-2 text-sm text-cyan-100">Производитель брендированной упаковки</p>
+                <p className="mt-4 leading-7 text-slate-300">«Beltona» — производитель современной и стильной брендированной упаковки для различных отраслей.</p>
+              </div>
+            </article>
+
+            <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
+              <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
+                <span className="rounded-full bg-slate-950/70 px-3 py-1 text-xs text-cyan-100">Evolution</span>
+              </div>
+              <div className="p-7">
+                <h3 className="text-2xl font-black">Тосол Синтез</h3>
+                <p className="mt-2 text-sm text-cyan-100">Завод пластиковой тары</p>
+                <p className="mt-4 leading-7 text-slate-300">Завод пластиковой тары в Москве — изготовление и продажа тары оптом: канистры, емкости, пищевая тара, тара для бытовой химии и косметики.</p>
+              </div>
+            </article>
+            <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
+              <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
+                <span className="rounded-full bg-slate-950/70 px-3 py-1 text-xs text-cyan-100">WordPress</span>
+              </div>
+              <div className="p-7">
+                <h3 className="text-2xl font-black">Motoxmoto</h3>
+                <p className="mt-2 text-sm text-cyan-100">Интернет-магазин</p>
+                <p className="mt-4 leading-7 text-slate-300">Магазин мотоэкипировки в Москве. Мотоэкипировка, произведенную по заказу и от сторонних производителей.</p>
+              </div>
+            </article>
+            <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
+              <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
+                <span className="rounded-full bg-slate-950/70 px-3 py-1 text-xs text-cyan-100">Bitrix</span>
+              </div>
+              <div className="p-7">
+                <h3 className="text-2xl font-black">Техника-М</h3>
+                <p className="mt-2 text-sm text-cyan-100">Интернет-магазин</p>
+                <p className="mt-4 leading-7 text-slate-300">Tehnika-M — это компания, которая предлагает широкий ассортимент техники для дома и кухни.</p>
+              </div>
+            </article>
+            <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
+              <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
+                <span className="rounded-full bg-slate-950/70 px-3 py-1 text-xs text-cyan-100">WordPress</span>
+              </div>
+              <div className="p-7">
+                <h3 className="text-2xl font-black">Феномен</h3>
+                <p className="mt-2 text-sm text-cyan-100">Шахматная школа</p>
+                <p className="mt-4 leading-7 text-slate-300">Образовательная ниша, где важны программы, преподаватели, расписание и заявки.</p>
+              </div>
+            </article>
+            <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
+              <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
+                <span className="rounded-full bg-slate-950/70 px-3 py-1 text-xs text-cyan-100">Bitrix</span>
+              </div>
+              <div className="p-7">
+                <h3 className="text-2xl font-black">А-Текстиль</h3>
+                <p className="mt-2 text-sm text-cyan-100">Интернет-магазин</p>
+                <p className="mt-4 leading-7 text-slate-300">«А-Текстиль» — широкий ассортимент тканей, материалов для шитья и швейной фурнитуры.</p>
+              </div>
+            </article>
+            <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
+              <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
+                <span className="rounded-full bg-slate-950/70 px-3 py-1 text-xs text-cyan-100">Bitrix</span>
+              </div>
+              <div className="p-7">
+                <h3 className="text-2xl font-black">Омникомм</h3>
+                <p className="mt-2 text-sm text-cyan-100">Системы спутникового мониторинга транспорта</p>
+                <p className="mt-4 leading-7 text-slate-300">Omnicomm — крупный российский разработчик и производитель систем спутникового мониторинга транспорта на базе технологий ГЛОНАСС/GPS.</p>
+              </div>
+            </article>
+            <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
+              <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
+                <span className="rounded-full bg-slate-950/70 px-3 py-1 text-xs text-cyan-100">WordPress</span>
+              </div>
+              <div className="p-7">
+                <h3 className="text-2xl font-black">Вистал</h3>
+                <p className="mt-2 text-sm text-cyan-100">Комплектующие для очистных сооружений и изделий из полимерных и композитных материалов</p>
+                <p className="mt-4 leading-7 text-slate-300">Производство, а также оказание услуг по проектированию, монтажу и обслуживанию очистных систем.</p>
+              </div>
+            </article>
+          </div>
+        </div>
       </section>
-    </div>
+
+      {/*
+      <section className="px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
+          <div className="max-w-3xl">
+            <p className="text-sm font-bold uppercase tracking-[.24em] text-cyan-200">Как усилить кейсы</p>
+            <h2 className="mt-4 text-3xl font-black tracking-tight sm:text-5xl">Что добавить в каждую карточку</h2>
+            <p className="mt-5 text-lg leading-8 text-slate-300">Сейчас портфолио можно сделать сильнее, если добавить конкретику. Даже без цифр можно показать роль в проекте, стек, сложность, список работ и ценность для клиента.</p>
+          </div>
+          <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            <article className="glass rounded-[2rem] p-7">
+              <h3 className="text-2xl font-black">Задача клиента</h3>
+              <p className="mt-4 leading-7 text-slate-300">Что нужно было сделать: новый сайт, доработка, перенос, интеграция, скорость, SEO или поддержка.</p>
+            </article>
+            <article className="glass rounded-[2rem] p-7">
+              <h3 className="text-2xl font-black">Роль в проекте</h3>
+              <p className="mt-4 leading-7 text-slate-300">Какая часть была вашей: верстка, backend, CMS, React, интеграции, поддержка или SEO-внедрение.</p>
+            </article>
+            <article className="glass rounded-[2rem] p-7">
+              <h3 className="text-2xl font-black">Стек и решения</h3>
+              <p className="mt-4 leading-7 text-slate-300">Какие технологии использовались и почему они подходили под задачу.</p>
+            </article>
+            <article className="glass rounded-[2rem] p-7">
+              <h3 className="text-2xl font-black">Результат</h3>
+              <p className="mt-4 leading-7 text-slate-300">Что изменилось после работ: запуск, новые разделы, стабильность, скорость, формы, удобство поддержки.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      */}
+
+      <section className="px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <div className="text-center">
+            <p className="text-sm font-bold uppercase tracking-[.24em] text-cyan-200">FAQ</p>
+            <h2 className="mt-4 text-3xl font-black tracking-tight sm:text-5xl">Частые вопросы</h2>
+          </div>
+          <div className="mt-12 space-y-4">
+            <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что нужно для старта работы?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Ссылка на сайт или макет, краткое описание задачи, список нужных страниц, желаемые сроки и понимание, какой результат важнее: заявки, SEO, запуск рекламы, скорость или поддержка.</p>
+            </details>
+            <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли доработать текущий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Да. Можно исправить ошибки, улучшить мобильную версию, добавить новые блоки, подключить формы, внедрить SEO-правки, ускорить загрузку и настроить аналитику.</p>
+            </details>
+            <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]"><summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли подключить Яндекс Метрику и цели?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Да. Для форм, кнопок, кликов по контактам, открытия модальных окон и отправки заявок можно настроить события, которые пригодятся для рекламы и аналитики.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
+          <div className="max-w-3xl">
+              <p className="text-sm font-bold uppercase tracking-[.24em] text-cyan-200">Навигация по услугам</p>
+              <h2 className="mt-4 text-3xl font-black tracking-tight sm:text-5xl">Другие услуги разработки</h2>
+          </div>
+          {/* Вывести церез цикл */}
+          <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+              <Link href="/services/razrabotka-saitov/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
+                  <span className="block font-bold text-white">Разработка сайтов</span>
+                  <span className="mt-1 block text-sm text-slate-400">Сайт под бизнес-задачи, SEO и заявки</span>
+              </Link>
+              <Link href="/services/landing-page/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
+                  <span className="block font-bold text-white">Лендинг под рекламу</span>
+                  <span className="mt-1 block text-sm text-slate-400">Посадочная страница для Яндекс Директ и таргета</span>
+              </Link>
+              <Link href="/services/react-nextjs/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
+                  <span className="block font-bold text-white">React и Next.js</span>
+                  <span className="mt-1 block text-sm text-slate-400">Интерфейсы, веб-приложения и быстрые страницы</span>
+              </Link>
+              <Link href="/services/bitrix/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
+                  <span className="block font-bold text-white">1C-Bitrix и CMS</span>
+                  <span className="mt-1 block text-sm text-slate-400">Корпоративные сайты, каталоги и доработки</span>
+              </Link>
+                  <Link href="/services/verstka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
+                  <span className="block font-bold text-white">Верстка сайта</span>
+                  <span className="mt-1 block text-sm text-slate-400">Адаптивная верстка по Figma на Tailwind</span>
+              </Link>
+              <Link href="/services/tehnicheskaya-podderzhka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
+                  <span className="block font-bold text-white">Техподдержка сайта</span>
+                  <span className="mt-1 block text-sm text-slate-400">Исправления, развитие и регулярные доработки</span>
+              </Link>
+              <Link href="/services/seo-optimizaciya-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
+                  <span className="block font-bold text-white">SEO-оптимизация</span>
+                  <span className="mt-1 block text-sm text-slate-400">Технические правки, структура и индексация</span>
+              </Link>
+              <Link href="/services/integracii-crm/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
+                  <span className="block font-bold text-white">Интеграции CRM</span>
+                  <span className="mt-1 block text-sm text-slate-400">Формы, заявки, аналитика и уведомления</span>
+              </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-4 pb-24 pt-8 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl rounded-[2.5rem] border border-cyan-300/20 bg-cyan-300 p-8 text-slate-950 sm:p-12 lg:p-16">
+          <div className="grid gap-8 lg:grid-cols-[1fr_.7fr] lg:items-center">
+            <div>
+              <p className="text-sm font-black uppercase tracking-[.24em] opacity-70">Связаться</p>
+              <h2 className="mt-4 text-3xl font-black tracking-tight sm:text-5xl">Расскажите о задаче - предложу структуру и план работ</h2>
+              <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-800">Можно прислать ссылку на сайт, макет, ТЗ или просто краткое описание. Сначала разберем, что нужно сделать в первую очередь: структуру, разработку, SEO, рекламу, скорость или интеграции.</p>
+            </div>
+            <div className="flex flex-col gap-3">
+              <button onClick={() => window.dispatchEvent(new Event("openLeadModal"))} className="rounded-full bg-slate-950 px-7 py-4 font-bold text-white transition hover:bg-slate-800">Оставить заявку</button>
+              <a href="https://t.me/Lorian2217" className="rounded-full border border-slate-950/20 px-7 py-4 text-center font-bold transition hover:bg-white/30">Написать в Telegram</a>
+              <a href="mailto:lorian2221@yandex.ru" className="rounded-full border border-slate-950/20 px-7 py-4 text-center font-bold transition hover:bg-white/30">lorian2221@yandex.ru</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }

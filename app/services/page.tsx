@@ -2,19 +2,19 @@ import type { Metadata } from 'next';
 import InteractiveComponent from './interactive-component'
 
 export const metadata: Metadata = {
-  title: 'О разработчике - Данила Мохнаткин, Lorian',
-  description: 'Данила Мохнаткин - full-stack developer. Разработка сайтов, интерфейсов, CMS-проектов, React, Next.js, Bitrix, SEO-правки и интеграции.',
+  title: 'Услуги разработки сайтов - React, Next.js, Bitrix, SEO и поддержка',
+  description: 'Услуги разработки сайтов: сайты под ключ, лендинги, React и Next.js, Bitrix, верстка, SEO-оптимизация, поддержка и интеграции.',
 
   openGraph: {
-    title: 'О разработчике - Данила Мохнаткин, Lorian',
-    description: 'Данила Мохнаткин - full-stack developer. Разработка сайтов, интерфейсов, CMS-проектов, React, Next.js, Bitrix, SEO-правки и интеграции.',
-    url: 'https://lorian.su/about/',
+    title: 'Услуги разработки сайтов - React, Next.js, Bitrix, SEO и поддержка',
+    description: 'Услуги разработки сайтов: сайты под ключ, лендинги, React и Next.js, Bitrix, верстка, SEO-оптимизация, поддержка и интеграции.',
+    url: 'https://lorian.su/services/',
     siteName: 'Lorian',
     locale: 'ru_RU',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://lorian.su/about/',
+    canonical: 'https://lorian.su/services/',
   },
   robots: {
     index: true,
@@ -45,7 +45,7 @@ const schema = {
   ]
 };
 
-export default function About() {
+export default function Services() {
   return (
     <>
       <script
