@@ -33,9 +33,12 @@ export async function POST(req: Request) {
         });
 
         if (error) {
-            console.error(error);
+            console.error("RESEND ERROR:", error);
             return NextResponse.json(
-                { error: "Email failed" },
+                {
+                    error: "Email failed",
+                    details: error,
+                },
                 { status: 500 }
             );
         }
