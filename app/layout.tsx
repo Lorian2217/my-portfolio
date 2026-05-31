@@ -111,7 +111,6 @@ export default function RootLayout({
         </section> */}
 
           <ModalProvider />
-          <LeadModal />
         <Footer />
       </body>
     </html>
