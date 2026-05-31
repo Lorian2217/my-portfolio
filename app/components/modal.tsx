@@ -86,7 +86,7 @@ export default function LeadModal({
                 <form className="mt-6 space-y-4" action="#" method="post" onSubmit={handleSubmit}>
                     <input name="name" type="text" placeholder="Имя" value={form.name} onChange={handleChange} className="w-full rounded-2xl border border-white/10 bg-white/[.06] px-4 py-3 text-white outline-none placeholder:text-slate-500 focus:border-cyan-300" />
                     <input name="contact" type="text" placeholder="Telegram, телефон или email" value={form.contact} onChange={handleChange} className="w-full rounded-2xl border border-white/10 bg-white/[.06] px-4 py-3 text-white outline-none placeholder:text-slate-500 focus:border-cyan-300" />
-                    <textarea name="task" rows="4" placeholder="Коротко опишите задачу" value={form.task} onChange={handleChange} className="w-full resize-none rounded-2xl border border-white/10 bg-white/[.06] px-4 py-3 text-white outline-none placeholder:text-slate-500 focus:border-cyan-300"></textarea>
+                    <textarea name="task" rows={4} placeholder="Коротко опишите задачу" value={form.task} onChange={handleChange} className="w-full resize-none rounded-2xl border border-white/10 bg-white/[.06] px-4 py-3 text-white outline-none placeholder:text-slate-500 focus:border-cyan-300"></textarea>
                     <button type="submit" disabled={loading} className="w-full rounded-full bg-cyan-300 px-6 py-4 font-bold text-slate-950 transition hover:bg-cyan-200">{loading ? "Отправка..." : "Отправить заявку"}</button>
                 </form>
             </div>
