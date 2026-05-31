@@ -18,7 +18,8 @@ export async function POST(req: Request) {
 
         const { data, error } = await resend.emails.send({
             from: "Contact Form <onboarding@resend.dev>",
-            to: process.env.MAIL_TO!,
+            // to: process.env.MAIL_TO!,
+            to: "danilmockhnatkin@gmail.com",
             subject: "Новая заявка с сайта",
             html: `
                 <div style="font-family: Arial">
