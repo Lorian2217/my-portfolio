@@ -44,6 +44,9 @@ export async function POST(req: Request) {
             });
 
         // Отправка письма
+        await transporter.verify();
+
+        console.log("SMTP connection OK");
 
         await transporter.sendMail({
             from: process.env.SMTP_USER,
@@ -84,12 +87,15 @@ export async function POST(req: Request) {
         });
 
     } catch (error) {
-
+        console.error("CONTACT API ERROR:");
         console.error(error);
 
         return NextResponse.json(
             {
-                error: "Ошибка сервера",
+                error:
+                    error instanceof Error
+                        ? error.message
+                        : "Ошибка сервера",
             },
             {
                 status: 500,
