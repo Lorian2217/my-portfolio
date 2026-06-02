@@ -135,16 +135,24 @@ export default function InteractiveComponent() {
                 </div>
                 <div className="mt-12 space-y-4">
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что нужно для старта работы?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Ссылка на сайт или макет, краткое описание задачи, список нужных страниц, желаемые сроки и понимание, какой результат важнее: заявки, SEO, запуск рекламы, скорость или поддержка.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько времени занимает разработка сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Сроки зависят от объема работ и сложности функционала. Небольшой сайт может быть готов за 1–3 недели, корпоративный проект — за 1–2 месяца, а крупные веб-сервисы разрабатываются по индивидуальному графику. Перед началом работ согласовывается подробный план реализации.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли доработать текущий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Да. Можно исправить ошибки, улучшить мобильную версию, добавить новые блоки, подключить формы, внедрить SEO-правки, ускорить загрузку и настроить аналитику.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько стоит разработка сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Стоимость разработки зависит от типа сайта, количества страниц, необходимого функционала, интеграций и требований к дизайну. После обсуждения проекта я подготавливаю детальную оценку с фиксированным перечнем работ, чтобы вы заранее понимали бюджет и сроки реализации.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли подключить Яндекс Метрику и цели?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Да. Для форм, кнопок, кликов по контактам, открытия модальных окон и отправки заявок можно настроить события, которые пригодятся для рекламы и аналитики.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">От чего зависит итоговая цена сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">На стоимость влияют сложность дизайна, наличие личного кабинета, форм обратной связи, интеграций с CRM, платежными системами, каталогами товаров и другими сервисами. Чем больше нестандартного функционала требуется, тем выше объем работ и итоговая стоимость проекта.</p>
+                    </details>
+                    <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли разработать сайт в рамках ограниченного бюджета?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Да. Если бюджет ограничен, можно начать с минимально необходимого функционала и постепенно расширять возможности сайта по мере роста бизнеса. Такой подход позволяет быстрее запустить проект и распределить расходы во времени.</p>
+                    </details>
+                    <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Почему не стоит выбирать разработку только по самой низкой цене?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Слишком низкая стоимость часто означает использование шаблонных решений без учета задач бизнеса, отсутствие технической поддержки и проблемы с дальнейшим развитием проекта. Качественный сайт — это инвестиция, которая должна привлекать клиентов, а не создавать дополнительные расходы на переделку.</p>
                     </details>
                 </div>
             </div>

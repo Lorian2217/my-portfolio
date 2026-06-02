@@ -135,16 +135,24 @@ export default function InteractiveComponent() {
                 </div>
                 <div className="mt-12 space-y-4">
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что нужно для старта работы?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Ссылка на сайт или макет, краткое описание задачи, список нужных страниц, желаемые сроки и понимание, какой результат важнее: заявки, SEO, запуск рекламы, скорость или поддержка.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что входит в услугу верстки сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">В услугу входит преобразование дизайн-макетов (Figma, PSD, XD и других форматов) в готовый HTML/CSS/JavaScript-код. Верстка выполняется с учетом адаптивности, кроссбраузерности, скорости загрузки и современных стандартов веб-разработки.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли доработать текущий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Да. Можно исправить ошибки, улучшить мобильную версию, добавить новые блоки, подключить формы, внедрить SEO-правки, ускорить загрузку и настроить аналитику.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько стоит верстка сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Стоимость зависит от количества страниц, сложности дизайна, наличия анимаций, интерактивных элементов и дополнительных требований. После изучения макетов я предоставляю точную оценку стоимости и сроков выполнения работ.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли подключить Яндекс Метрику и цели?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Да. Для форм, кнопок, кликов по контактам, открытия модальных окон и отправки заявок можно настроить события, которые пригодятся для рекламы и аналитики.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Будет ли сайт корректно отображаться на мобильных устройствах?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Да. Вся верстка выполняется по принципу Mobile First или с полноценной адаптацией под смартфоны, планшеты и компьютеры. Это обеспечивает удобство для пользователей и соответствует современным требованиям поисковых систем.</p>
+                    </details>
+                    <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли интегрировать готовую верстку в CMS или существующий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Да. Готовая верстка может быть интегрирована в WordPress, 1С-Битрикс, Laravel, React, Next.js и другие системы. Также возможно подключение верстки к уже существующему проекту без необходимости полной переработки сайта.</p>
+                    </details>
+                    <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Почему качественная верстка важна для бизнеса?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">От качества верстки зависит скорость загрузки страниц, удобство пользователей, корректное отображение на разных устройствах и дальнейшее развитие проекта. Чистый и оптимизированный код облегчает поддержку сайта, улучшает пользовательский опыт и положительно влияет на SEO-продвижение.</p>
                     </details>
                 </div>
             </div>

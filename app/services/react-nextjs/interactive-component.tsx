@@ -135,16 +135,24 @@ export default function InteractiveComponent() {
                 </div>
                 <div className="mt-12 space-y-4">
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что нужно для старта работы?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Ссылка на сайт или макет, краткое описание задачи, список нужных страниц, желаемые сроки и понимание, какой результат важнее: заявки, SEO, запуск рекламы, скорость или поддержка.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Почему стоит выбрать React и Next.js для разработки сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">React и Next.js позволяют создавать быстрые, современные и масштабируемые веб-приложения. Благодаря серверному рендерингу (SSR) и статической генерации страниц (SSG) сайты на Next.js обеспечивают высокую скорость загрузки, отличную производительность и хорошие показатели SEO.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли доработать текущий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Да. Можно исправить ошибки, улучшить мобильную версию, добавить новые блоки, подключить формы, внедрить SEO-правки, ускорить загрузку и настроить аналитику.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Для каких проектов подходит React / Next.js?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Этот стек отлично подходит для корпоративных сайтов, SaaS-платформ, личных кабинетов, маркетплейсов, интернет-магазинов, CRM-систем и других проектов со сложной бизнес-логикой. Если проект планируется развивать и масштабировать, React и Next.js являются одним из наиболее перспективных решений.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли подключить Яндекс Метрику и цели?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Да. Для форм, кнопок, кликов по контактам, открытия модальных окон и отправки заявок можно настроить события, которые пригодятся для рекламы и аналитики.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько стоит разработка сайта на React или Next.js?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Стоимость зависит от сложности интерфейса, количества страниц, интеграций с внешними сервисами, наличия личного кабинета и других требований. Проекты на React и Next.js обычно требуют больше времени на разработку по сравнению с шаблонными решениями, однако обеспечивают более высокую производительность и гибкость в дальнейшем развитии.</p>
+                    </details>
+                    <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Будет ли сайт на React и Next.js хорошо индексироваться поисковыми системами?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Да. Next.js изначально ориентирован на SEO-оптимизацию благодаря серверному рендерингу и генерации статических страниц. Это позволяет поисковым системам корректно индексировать контент и улучшает видимость сайта в результатах поиска по сравнению с классическими SPA-приложениями.</p>
+                    </details>
+                    <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли доработать существующий React или Next.js проект?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Да. Я занимаюсь не только разработкой новых проектов, но и поддержкой существующих решений. Возможны аудит кода, оптимизация производительности, исправление ошибок, рефакторинг, внедрение нового функционала, интеграция API и миграция на актуальные версии React и Next.js.</p>
                     </details>
                 </div>
             </div>

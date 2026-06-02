@@ -181,16 +181,24 @@ export default function InteractiveComponent() {
                 </div>
                 <div className="mt-12 space-y-4">
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что нужно для старта работы?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Ссылка на сайт или макет, краткое описание задачи, список нужных страниц, желаемые сроки и понимание, какой результат важнее: заявки, SEO, запуск рекламы, скорость или поддержка.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Какие услуги вы предоставляете?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Я занимаюсь разработкой сайтов, созданием Landing Page, версткой по макетам, разработкой на React и Next.js, созданием и поддержкой проектов на 1С-Битрикс, SEO-оптимизацией, технической поддержкой сайтов и интеграцией CRM-систем. Также возможна комплексная реализация проекта от идеи до запуска и дальнейшего сопровождения.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли доработать текущий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Да. Можно исправить ошибки, улучшить мобильную версию, добавить новые блоки, подключить формы, внедрить SEO-правки, ускорить загрузку и настроить аналитику.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько стоят ваши услуги?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Стоимость зависит от типа проекта, сложности задач и требуемого функционала. Для каждого клиента подготавливается индивидуальный расчет после обсуждения требований. Это позволяет получить прозрачную смету без скрытых платежей и необоснованных расходов.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли подключить Яндекс Метрику и цели?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Да. Для форм, кнопок, кликов по контактам, открытия модальных окон и отправки заявок можно настроить события, которые пригодятся для рекламы и аналитики.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли заказать только часть работ?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Да. Вы можете обратиться как за комплексной разработкой сайта, так и за отдельными услугами: версткой, доработкой существующего проекта, SEO-оптимизацией, интеграцией CRM или технической поддержкой. Работа строится исходя из ваших текущих задач и бюджета.</p>
+                    </details>
+                    <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">С какими технологиями и платформами вы работаете?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">В работе используются современные технологии и популярные системы управления контентом: React, Next.js, PHP, Laravel, WordPress, 1С-Битрикс и другие решения. Выбор технологий зависит от целей проекта, требований к производительности и планов по дальнейшему развитию сайта.</p>
+                    </details>
+                    <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Предоставляете ли вы поддержку после завершения проекта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Да. После запуска проекта можно заказать техническое сопровождение, обновление системы, исправление ошибок, резервное копирование, развитие функционала и консультации по работе с сайтом. Это позволяет поддерживать стабильную работу проекта и своевременно внедрять необходимые изменения.</p>
                     </details>
                 </div>
             </div>

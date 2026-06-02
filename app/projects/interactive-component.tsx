@@ -55,6 +55,7 @@ export default function InteractiveComponent() {
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[.24em] text-cyan-200">Портфолио</p>
             <h2 className="mt-4 text-3xl font-black tracking-tight sm:text-5xl">Проекты по нишам и технологиям</h2>
+            <p className="mt-5 text-lg leading-8 text-slate-300">Список проектов которые я разрабатывал, или участвовал в их разработке/продвижении</p>
             {/* <p className="mt-5 text-lg leading-8 text-slate-300">Для SEO и доверия проекты лучше постепенно расширять в полноценные кейсы: задача, стартовая точка, стек, выполненные работы, результат и ссылка на сайт.</p> */}
           </div>
           {/* Вывести циклом */}
@@ -222,15 +223,24 @@ export default function InteractiveComponent() {
           </div>
           <div className="mt-12 space-y-4">
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что нужно для старта работы?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-              <p className="mt-4 leading-7 text-slate-300">Ссылка на сайт или макет, краткое описание задачи, список нужных страниц, желаемые сроки и понимание, какой результат важнее: заявки, SEO, запуск рекламы, скорость или поддержка.</p>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько времени занимает разработка сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300"><b>Сроки зависят от сложности проекта.</b> Лендинг обычно разрабатывается за 2–4 недели, корпоративный сайт — от 1 до 3 месяцев, а интернет-магазины и нестандартные проекты могут потребовать больше времени. После обсуждения задач я формирую подробный план работ и согласовываю сроки.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли доработать текущий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-              <p className="mt-4 leading-7 text-slate-300">Да. Можно исправить ошибки, улучшить мобильную версию, добавить новые блоки, подключить формы, внедрить SEO-правки, ускорить загрузку и настроить аналитику.</p>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Работаете ли вы только с новыми проектами или можете доработать существующий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Да, я занимаюсь не только разработкой с нуля, но и доработкой уже существующих проектов. Могу исправить ошибки, добавить новый функционал, повысить производительность сайта, улучшить адаптивность и провести техническую оптимизацию.</p>
             </details>
-            <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]"><summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли подключить Яндекс Метрику и цели?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-              <p className="mt-4 leading-7 text-slate-300">Да. Для форм, кнопок, кликов по контактам, открытия модальных окон и отправки заявок можно настроить события, которые пригодятся для рекламы и аналитики.</p>
+            <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Какие CMS и технологии вы используете?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Работаю с популярными CMS, такими как WordPress, Joomla, 1С-Битрикс и Evolution CMS. Также разрабатываю проекты на PHP, Laravel, JavaScript, React и Vue.js. Выбор технологии зависит от задач бизнеса и требований к проекту.</p>
+            </details>
+            <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Входит ли SEO-оптимизация в разработку сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">При разработке соблюдаются базовые требования SEO: корректная структура страниц, оптимизированный код, высокая скорость загрузки и адаптивность. Дополнительно могу выполнить SEO-правки по техническому заданию или взять проект на комплексное SEO-продвижение.</p>
+            </details>
+            <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Предоставляете ли вы поддержку после завершения проекта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Да, после запуска сайта доступно техническое сопровождение. Оно может включать обновление системы, резервное копирование, мониторинг работоспособности, исправление ошибок, добавление нового функционала и консультации по работе с сайтом.</p>
             </details>
           </div>
         </div>

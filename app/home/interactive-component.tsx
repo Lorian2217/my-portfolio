@@ -99,6 +99,7 @@ export default function InteractiveComponent() {
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[.24em] text-cyan-200">Проекты</p>
             <h2 className="mt-4 text-3xl font-black tracking-tight sm:text-5xl">Опыт в разных нишах</h2>
+            <p className="mt-5 text-lg leading-8 text-slate-300">Список проектов которые я разрабатывал, или участвовал в их разработке/продвижении.</p>
             {/* <p className="mt-5 text-lg leading-8 text-slate-300">Портфолио лучше использовать как доказательство: показывать не только название проекта, но и нишу, стек, задачу и роль в разработке.</p> */}
           </div>
           {/* Тоже можно массивом из бд вытащить */}
@@ -204,16 +205,24 @@ export default function InteractiveComponent() {
           </div>
           <div className="mt-12 space-y-4">
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что нужно для старта работы?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-              <p className="mt-4 leading-7 text-slate-300">Ссылка на сайт или макет, краткое описание задачи, список нужных страниц, желаемые сроки и понимание, какой результат важнее: заявки, SEO, запуск рекламы, скорость или поддержка.</p>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Какие задачи вы помогаете решать бизнесу?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Я разрабатываю сайты и веб-приложения, которые помогают привлекать клиентов, автоматизировать бизнес-процессы и увеличивать продажи. В зависимости от задач проекта это может быть создание нового сайта, модернизация существующего решения, SEO-продвижение, интеграция CRM или техническая поддержка.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли доработать текущий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-              <p className="mt-4 leading-7 text-slate-300">Да. Можно исправить ошибки, улучшить мобильную версию, добавить новые блоки, подключить формы, внедрить SEO-правки, ускорить загрузку и настроить аналитику.</p>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько стоит создание сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Стоимость зависит от типа проекта, объема работ и необходимого функционала. Простые сайты и лендинги требуют меньших вложений, а корпоративные порталы, интернет-магазины и индивидуальные веб-приложения рассчитываются отдельно. После обсуждения проекта вы получите подробную смету с прозрачным расчетом стоимости.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли подключить Яндекс Метрику и цели?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-              <p className="mt-4 leading-7 text-slate-300">Да. Для форм, кнопок, кликов по контактам, открытия модальных окон и отправки заявок можно настроить события, которые пригодятся для рекламы и аналитики.</p>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Почему стоит заказать разработку у вас, а не в веб-студии?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Работая напрямую с разработчиком, вы получаете быструю коммуникацию, отсутствие посредников и полный контроль над проектом. Все ключевые решения обсуждаются напрямую, что позволяет быстрее внедрять изменения и эффективнее использовать бюджет.</p>
+            </details>
+            <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли обратиться, если сайт уже существует?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Да. Помимо разработки новых проектов, я занимаюсь доработкой существующих сайтов, исправлением ошибок, оптимизацией производительности, SEO-настройкой, интеграцией сторонних сервисов и технической поддержкой проектов любой сложности.</p>
+            </details>
+            <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Как начать сотрудничество?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Достаточно оставить заявку через форму обратной связи или связаться любым удобным способом. После обсуждения задач я предложу оптимальный вариант реализации, озвучу сроки и стоимость работ, а затем приступлю к выполнению проекта после согласования всех деталей.</p>
             </details>
           </div>
         </div>

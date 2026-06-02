@@ -135,16 +135,24 @@ export default function InteractiveComponent() {
                 </div>
                 <div className="mt-12 space-y-4">
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что нужно для старта работы?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Ссылка на сайт или макет, краткое описание задачи, список нужных страниц, желаемые сроки и понимание, какой результат важнее: заявки, SEO, запуск рекламы, скорость или поддержка.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что входит в SEO-оптимизацию сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">SEO-оптимизация включает технический аудит сайта, исправление ошибок, сбор и кластеризацию ключевых запросов, оптимизацию структуры страниц, настройку метатегов, улучшение скорости загрузки, работу с контентом и повышение удобства сайта для пользователей и поисковых систем.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли доработать текущий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Да. Можно исправить ошибки, улучшить мобильную версию, добавить новые блоки, подключить формы, внедрить SEO-правки, ускорить загрузку и настроить аналитику.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Когда можно ожидать первые результаты от SEO?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">SEO — это долгосрочный инструмент продвижения. Первые положительные изменения обычно становятся заметны через 1–3 месяца, а значительный рост позиций и органического трафика может потребовать от 3 до 12 месяцев в зависимости от конкуренции в нише и текущего состояния сайта.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли подключить Яндекс Метрику и цели?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Да. Для форм, кнопок, кликов по контактам, открытия модальных окон и отправки заявок можно настроить события, которые пригодятся для рекламы и аналитики.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько стоит SEO-продвижение сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Стоимость зависит от размера сайта, уровня конкуренции, региона продвижения и объема необходимых работ. После проведения аудита я подготавливаю индивидуальный план работ и рассчитываю бюджет с учетом целей бизнеса и текущего состояния проекта.</p>
+                    </details>
+                    <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли гарантировать выход сайта в ТОП поисковой выдачи?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Ни один специалист не может гарантировать конкретные позиции в поисковых системах, поскольку алгоритмы Яндекса и Google постоянно меняются. Однако грамотная SEO-стратегия позволяет существенно улучшить видимость сайта, увеличить органический трафик и повысить количество заявок от потенциальных клиентов.</p>
+                    </details>
+                    <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Подходит ли SEO для нового сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Да. Более того, SEO рекомендуется внедрять еще на этапе разработки сайта. Правильная структура, техническая оптимизация и качественный контент позволяют быстрее индексироваться поисковыми системами и избежать многих ошибок, которые впоследствии требуют дополнительных затрат на исправление.</p>
                     </details>
                 </div>
             </div>

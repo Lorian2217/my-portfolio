@@ -92,16 +92,24 @@ export default function InteractiveComponent() {
           </div>
           <div className="mt-12 space-y-4">
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что нужно для старта работы?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-              <p className="mt-4 leading-7 text-slate-300">Ссылка на сайт или макет, краткое описание задачи, список нужных страниц, желаемые сроки и понимание, какой результат важнее: заявки, SEO, запуск рекламы, скорость или поддержка.</p>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько лет вы занимаетесь веб-разработкой?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Я занимаюсь разработкой и сопровождением веб-проектов более 3 лет. За это время реализовал проекты различной сложности — от небольших лендингов до корпоративных сайтов, интернет-магазинов и индивидуальных веб-приложений для бизнеса.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли доработать текущий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-              <p className="mt-4 leading-7 text-slate-300">Да. Можно исправить ошибки, улучшить мобильную версию, добавить новые блоки, подключить формы, внедрить SEO-правки, ускорить загрузку и настроить аналитику.</p>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Работаете ли вы самостоятельно или в команде?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Основную часть проектов я выполняю лично, что позволяет контролировать качество работ на каждом этапе. При необходимости к проекту могут привлекаться проверенные специалисты для решения узкопрофильных задач, таких как дизайн, копирайтинг или контекстная реклама.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли подключить Яндекс Метрику и цели?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-              <p className="mt-4 leading-7 text-slate-300">Да. Для форм, кнопок, кликов по контактам, открытия модальных окон и отправки заявок можно настроить события, которые пригодятся для рекламы и аналитики.</p>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">С какими клиентами вы работаете?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Я сотрудничаю как с частными клиентами и индивидуальными предпринимателями, так и с малыми и средними компаниями. Независимо от масштаба проекта, каждый клиент получает индивидуальный подход и решение, ориентированное на достижение конкретных бизнес-целей.</p>
+            </details>
+            <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Как строится работа над проектом?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Работа начинается с обсуждения задач и требований. После этого формируется план реализации, согласовываются сроки и стоимость. На протяжении всего проекта поддерживается связь с заказчиком, а ключевые этапы разработки проходят согласование перед переходом к следующему этапу.</p>
+            </details>
+            <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Почему стоит обратиться именно к вам?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <p className="mt-4 leading-7 text-slate-300">Я делаю ставку на долгосрочное сотрудничество, прозрачность работы и качество результата. Вместо шаблонного подхода предлагаются решения, которые учитывают особенности бизнеса, помогают привлекать клиентов и обеспечивают возможность дальнейшего развития проекта без необходимости создавать сайт заново.</p>
             </details>
           </div>
         </div>

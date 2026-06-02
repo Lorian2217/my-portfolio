@@ -135,16 +135,24 @@ export default function InteractiveComponent() {
                 </div>
                 <div className="mt-12 space-y-4">
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что нужно для старта работы?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Ссылка на сайт или макет, краткое описание задачи, список нужных страниц, желаемые сроки и понимание, какой результат важнее: заявки, SEO, запуск рекламы, скорость или поддержка.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Почему стоит выбрать 1С-Битрикс для разработки сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">1С-Битрикс — одна из самых популярных CMS для бизнеса в России. Платформа подходит для корпоративных сайтов, интернет-магазинов и B2B-порталов, поддерживает интеграцию с 1С, CRM-системами и маркетплейсами, а также предоставляет широкие возможности для масштабирования проекта.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли доработать текущий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Да. Можно исправить ошибки, улучшить мобильную версию, добавить новые блоки, подключить формы, внедрить SEO-правки, ускорить загрузку и настроить аналитику.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько стоит разработка сайта на 1С-Битрикс?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Стоимость зависит от сложности проекта, выбранной редакции Битрикс, дизайна, количества интеграций и необходимого функционала. После анализа требований я подготавливаю подробную смету, в которой отдельно указываются стоимость разработки и лицензии, если она требуется.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли подключить Яндекс Метрику и цели?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
-                        <p className="mt-4 leading-7 text-slate-300">Да. Для форм, кнопок, кликов по контактам, открытия модальных окон и отправки заявок можно настроить события, которые пригодятся для рекламы и аналитики.</p>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Нужно ли покупать лицензию 1С-Битрикс?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Да, для работы сайта необходима лицензия. Стоимость зависит от выбранной редакции и задач проекта. Если у вас уже есть действующая лицензия, её можно использовать при разработке или доработке сайта. Я помогу подобрать оптимальный вариант и выполнить установку системы.</p>
+                    </details>
+                    <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли интегрировать сайт с 1С и другими сервисами?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Да. Возможна настройка обмена данными с 1С, CRM-системами, службами доставки, платёжными сервисами, маркетплейсами и другими внешними платформами. Это позволяет автоматизировать бизнес-процессы и сократить количество ручной работы.</p>
+                    </details>
+                    <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Занимаетесь ли вы поддержкой и доработкой существующих сайтов на Битрикс?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <p className="mt-4 leading-7 text-slate-300">Да. Выполняю аудит проекта, исправление ошибок, обновление системы, оптимизацию производительности, настройку безопасности, разработку новых модулей и доработку существующего функционала. Также возможна долгосрочная техническая поддержка сайта.</p>
                     </details>
                 </div>
             </div>
