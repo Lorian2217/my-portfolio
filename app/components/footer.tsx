@@ -13,8 +13,8 @@ export default function Footer() {
                     <Link className="hover:text-cyan-200" href="/services/">Услуги</Link>
                     <Link className="hover:text-cyan-200" href="/projects/">Проекты</Link>
                     <Link className="hover:text-cyan-200" href="/contacts/">Контакты</Link>
-                    {/* <Link className="hover:text-cyan-200" href="/payment/">Оплата</Link>
-                    <Link className="hover:text-cyan-200" href="/blog/">Блог</Link> */}
+                    {/* <Link className="hover:text-cyan-200" href="/payment/">Оплата</Link> */}
+                    <Link className="hover:text-cyan-200" href="/blog/">Блог</Link>
                 </div>
             </div>
         </footer>
