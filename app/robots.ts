@@ -11,3 +11,5 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: 'https://lorian.su/sitemap.xml',
   }
 }
+
+export const dynamic = 'force-static';
