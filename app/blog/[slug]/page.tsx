@@ -6,7 +6,7 @@ export async function generateStaticParams() {
   return articles.map((article) => ({
     slug: article.slug,
   }));
-}
+}  
 
 interface Props {
   params: Promise<{
