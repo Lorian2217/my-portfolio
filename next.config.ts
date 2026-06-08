@@ -1,25 +1,22 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  output: 'export'
-};
+  output: "export",
+  trailingSlash: true,
+  skipTrailingSlashRedirect: false,
 
-module.exports = {
+  images: {
+    qualities: [25, 50, 75, 90],
+  },
+
   async redirects() {
     return [
       {
-        source: '/home',
-        destination: '/',
+        source: "/home",
+        destination: "/",
         permanent: true,
       },
     ];
-  },
-};
-
-module.exports = {
-  images: {
-    qualities: [25, 50, 75, 90],
   },
 };
 
