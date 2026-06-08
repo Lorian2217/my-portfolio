@@ -38,6 +38,10 @@ export async function generateMetadata({
       description: article.description,
       images: [article.image],
     },
+    
+    alternates: {
+      canonical: `https://lorian.su/blog/${article.slug}/`,
+    },
   };
 }
 
