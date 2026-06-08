@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  // output: "export",
   trailingSlash: true,
-  skipTrailingSlashRedirect: false,
+  // skipTrailingSlashRedirect: false,
 
   images: {
     qualities: [25, 50, 75, 90],
