@@ -89,6 +89,7 @@ export default function RootLayout({
           }}
         />
         <meta name="google-site-verification" content="amAprgHEm7IChbfXtZoBV_nLo16wz84gomSujKPSLOs" />
+        <meta name="zen-verification" content="M47LlZMLsvZdxAe25D7ytrS7OCi2o4mLHBQxm2XDwG49Cu3Tngaa7tgGaBTDvBqO" />
       </head>
       <body className={`${inter.className} font-sans text-slate-100 antialiased`}>
         <Header />
