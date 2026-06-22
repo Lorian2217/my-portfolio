@@ -17,6 +17,13 @@ export default function Footer() {
                     <Link className="hover:text-cyan-200" href="/blog/">Блог</Link>
                 </div>
             </div>
+            <div className="mx-auto flex max-w-7xl flex-col justify-between gap-6 text-sm text-slate-400 md:flex-row md:items-center pt-3">
+                <div className="flex flex-wrap gap-4">
+                    <Link className="hover:text-cyan-200" href="/terms/">Пользовательское соглашение</Link>
+                    <Link className="hover:text-cyan-200" href="/privacy/">Политика обработки персональных данных</Link>
+                    <Link className="hover:text-cyan-200" href="/cookies/">Политика использования Cookie</Link>
+                </div>
+            </div>
         </footer>
     );
 }
