@@ -270,9 +270,9 @@ export default function InteractiveComponent() {
                   <span className="block font-bold text-white">1C-Bitrix и CMS</span>
                   <span className="mt-1 block text-sm text-slate-400">Корпоративные сайты, каталоги и доработки</span>
               </Link>
-                  <Link href="/services/verstka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
+                <Link href="/services/verstka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
                   <span className="block font-bold text-white">Верстка сайта</span>
-                  <span className="mt-1 block text-sm text-slate-400">Адаптивная верстка по Figma на Tailwind</span>
+                  <span className="mt-1 block text-sm text-slate-400">Адаптивная верстка по Figma</span>
               </Link>
               <Link href="/services/tehnicheskaya-podderzhka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
                   <span className="block font-bold text-white">Техподдержка сайта</span>

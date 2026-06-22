@@ -30,7 +30,7 @@ export default function InteractiveComponent() {
                         <div className="rounded-3xl bg-white/[.06] p-5">
                             <span className="text-3xl font-black">02</span>
                             <p className="mt-2 font-bold">Быстрая верстка</p>
-                            <p className="mt-2 text-sm text-slate-400">Tailwind, адаптив и аккуратные компоненты.</p>
+                            <p className="mt-2 text-sm text-slate-400">Адаптив и аккуратные компоненты.</p>
                         </div>
                         <div className="rounded-3xl bg-white/[.06] p-5">
                             <span className="text-3xl font-black">03</span>

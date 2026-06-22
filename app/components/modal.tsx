@@ -1,6 +1,7 @@
 "use client"
 
 import "../globals.css";
+import Link from 'next/link';
 
 import { useState } from "react";
 
@@ -87,6 +88,10 @@ export default function LeadModal({
                     <input name="name" type="text" placeholder="Имя" value={form.name} onChange={handleChange} className="w-full rounded-2xl border border-white/10 bg-white/[.06] px-4 py-3 text-white outline-none placeholder:text-slate-500 focus:border-cyan-300" />
                     <input name="contact" type="text" placeholder="Telegram, телефон или email" value={form.contact} onChange={handleChange} className="w-full rounded-2xl border border-white/10 bg-white/[.06] px-4 py-3 text-white outline-none placeholder:text-slate-500 focus:border-cyan-300" />
                     <textarea name="task" rows={4} placeholder="Коротко опишите задачу" value={form.task} onChange={handleChange} className="w-full resize-none rounded-2xl border border-white/10 bg-white/[.06] px-4 py-3 text-white outline-none placeholder:text-slate-500 focus:border-cyan-300"></textarea>
+                    <div className="flex gap-3">
+                        <div className="rounded-lg overflow-hidden w-[25px] h-[25px]"><input type="checkbox" name="privacy" className="w-full h-full" required /></div>
+                        <div>Даю согласие на <Link href="/privacy/" className="border-b-1">обработку персональных данных</Link></div>
+                    </div>
                     <button type="submit" disabled={loading} className="w-full rounded-full bg-cyan-300 px-6 py-4 font-bold text-slate-950 transition hover:bg-cyan-200">{loading ? "Отправка..." : "Отправить заявку"}</button>
                 </form>
             </div>
