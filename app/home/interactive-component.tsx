@@ -55,41 +55,42 @@ export default function InteractiveComponent() {
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[.24em] text-cyan-200">Услуги</p>
             <h2 className="mt-4 text-3xl font-black tracking-tight sm:text-5xl">Список услуг которые я могу предложить</h2>
+            <p className="mt-5 text-lg leading-8 text-slate-300">* Рядом с услугой означает, что она в ещё в разработке</p>
           </div>
           {/* Это можно оптимизировать, выводя через перебор массива */}
           <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            <article className="glass rounded-[2rem] p-7">
+            <Link href="/services/razrabotka-saitov/" className="glass rounded-[2rem] p-7">
               <h3 className="text-2xl font-black">Разработка сайтов</h3>
               <p className="mt-4 leading-7 text-slate-300">Сайт под бизнес-задачи, SEO и заявки</p>
-            </article>
-            <article className="glass rounded-[2rem] p-7">
+            </Link>
+            <Link href="/services/landing-page/" className="glass rounded-[2rem] p-7">
               <h3 className="text-2xl font-black">Лендинг под рекламу</h3>
               <p className="mt-4 leading-7 text-slate-300">Посадочная страница для Яндекс Директ и таргета</p>
-            </article>
-            <article className="glass rounded-[2rem] p-7">
-              <h3 className="text-2xl font-black">React и Next.js</h3>
+            </Link>
+            <Link href="/services/react-nextjs/" className="glass rounded-[2rem] p-7">
+              <h3 className="text-2xl font-black">*React и Next.js</h3>
               <p className="mt-4 leading-7 text-slate-300">Интерфейсы, веб-приложения и быстрые страницы</p>
-            </article>
-            <article className="glass rounded-[2rem] p-7">
+            </Link>
+            <Link href="/services/bitrix/" className="glass rounded-[2rem] p-7">
               <h3 className="text-2xl font-black">1C-Bitrix и CMS</h3>
               <p className="mt-4 leading-7 text-slate-300">Корпоративные сайты, каталоги и доработки</p>
-            </article>
-            <article className="glass rounded-[2rem] p-7">
+            </Link>
+            <Link href="/services/verstka-saita/" className="glass rounded-[2rem] p-7">
               <h3 className="text-2xl font-black">Верстка сайта</h3>
               <p className="mt-4 leading-7 text-slate-300">Адаптивная верстка по Figma</p>
-            </article>
-            <article className="glass rounded-[2rem] p-7">
+            </Link>
+            <Link href="/services/tehnicheskaya-podderzhka-saita/" className="glass rounded-[2rem] p-7">
               <h3 className="text-2xl font-black">Техподдержка сайта</h3>
               <p className="mt-4 leading-7 text-slate-300">Исправления, развитие и регулярные доработки</p>
-            </article>
-            <article className="glass rounded-[2rem] p-7">
+            </Link>
+            <Link href="/services/seo-optimizaciya-saita/" className="glass rounded-[2rem] p-7">
               <h3 className="text-2xl font-black">SEO-оптимизация</h3>
               <p className="mt-4 leading-7 text-slate-300">Технические правки, структура и индексация</p>
-            </article>
-            <article className="glass rounded-[2rem] p-7">
+            </Link>
+            <Link href="/services/integracii-crm/" className="glass rounded-[2rem] p-7">
               <h3 className="text-2xl font-black">Интеграции CRM</h3>
               <p className="mt-4 leading-7 text-slate-300">Формы, заявки, аналитика и уведомления</p>
-            </article>
+            </Link>
           </div>
         </div>
       </section>
@@ -164,6 +165,9 @@ export default function InteractiveComponent() {
                 <p className="mt-4 leading-7 text-slate-300">Образовательная ниша, где важны программы, преподаватели, расписание и заявки.</p>
               </div>
             </article>
+          </div>
+          <div className="flex justify-center pt-5">
+            <Link href="/projects/" className="rounded-[8px] p-4 bg-transparent border border-white duration-500 hover:scale-105">Посмотреть все</Link>
           </div>
         </div>
       </section>
@@ -254,7 +258,7 @@ export default function InteractiveComponent() {
             </Link>
             <Link href="/services/verstka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
               <span className="block font-bold text-white">Верстка сайта</span>
-              <span className="mt-1 block text-sm text-slate-400">Адаптивная верстка по Figma на Tailwind</span>
+              <span className="mt-1 block text-sm text-slate-400">Адаптивная верстка по Figma</span>
             </Link>
             <Link href="/services/tehnicheskaya-podderzhka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
               <span className="block font-bold text-white">Техподдержка сайта</span>
