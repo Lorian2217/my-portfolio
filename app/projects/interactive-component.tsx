@@ -33,7 +33,7 @@ export default function InteractiveComponent() {
               <div className="rounded-3xl bg-white/[.06] p-5">
                 <span className="text-3xl font-black">02</span>
                 <p className="mt-2 font-bold">Быстрая верстка</p>
-                <p className="mt-2 text-sm text-slate-400">Tailwind, адаптив и аккуратные компоненты.</p>
+                <p className="mt-2 text-sm text-slate-400">Адаптив и аккуратные компоненты.</p>
               </div>
               <div className="rounded-3xl bg-white/[.06] p-5">
                 <span className="text-3xl font-black">03</span>
@@ -69,6 +69,9 @@ export default function InteractiveComponent() {
                 <p className="mt-2 text-sm text-cyan-100">Федеральная сеть городских курортов</p>
                 <p className="mt-4 leading-7 text-slate-300">Федеральная сеть Городских курортов с фитнесом, предоставляющих уникальную возможность совмещать урбанистический стиль жизни с роскошью курортного отдыха.</p>
               </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://termoland.ru" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
+              </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
               <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
@@ -78,6 +81,9 @@ export default function InteractiveComponent() {
                 <h3 className="text-2xl font-black">MRC-club</h3>
                 <p className="mt-2 text-sm text-cyan-100">Экосистема для PR, спикеров и СМИ</p>
                 <p className="mt-4 leading-7 text-slate-300">MRC-club — это инновационная экосистема, созданная с учетом потребностей PR-специалистов, опытных спикеров и представителей СМИ.</p>
+              </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://mrc-club.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
               </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
@@ -89,6 +95,9 @@ export default function InteractiveComponent() {
                 <p className="mt-2 text-sm text-cyan-100">Сайт для семейного отдыха в горах</p>
                 <p className="mt-4 leading-7 text-slate-300">Allure Lodge – место, где первозданная природа гор встречается с современным кавказским гостеприимством, создавая уникальное пространство для незабываемого семейного отдыха.</p>
               </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://allure-arkhyz.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
+              </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
               <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
@@ -99,6 +108,9 @@ export default function InteractiveComponent() {
                 <p className="mt-2 text-sm text-cyan-100">Металлообработка и мехобработка</p>
                 <p className="mt-4 leading-7 text-slate-300">B2B-ниша, где нужны услуги, оборудование, техническая экспертиза и формы обращения.</p>
               </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://grand-mech.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
+              </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
               <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
@@ -108,6 +120,9 @@ export default function InteractiveComponent() {
                 <h3 className="text-2xl font-black">Бельтона</h3>
                 <p className="mt-2 text-sm text-cyan-100">Производитель брендированной упаковки</p>
                 <p className="mt-4 leading-7 text-slate-300">«Beltona» — производитель современной и стильной брендированной упаковки для различных отраслей.</p>
+              </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://beltona.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
               </div>
             </article>
 
@@ -120,6 +135,9 @@ export default function InteractiveComponent() {
                 <p className="mt-2 text-sm text-cyan-100">Завод пластиковой тары</p>
                 <p className="mt-4 leading-7 text-slate-300">Завод пластиковой тары в Москве — изготовление и продажа тары оптом: канистры, емкости, пищевая тара, тара для бытовой химии и косметики.</p>
               </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://tara-ts.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
+              </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
               <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
@@ -129,6 +147,9 @@ export default function InteractiveComponent() {
                 <h3 className="text-2xl font-black">Motoxmoto</h3>
                 <p className="mt-2 text-sm text-cyan-100">Интернет-магазин</p>
                 <p className="mt-4 leading-7 text-slate-300">Магазин мотоэкипировки в Москве. Мотоэкипировка, произведенную по заказу и от сторонних производителей.</p>
+              </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://motoxmoto.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
               </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
@@ -140,6 +161,9 @@ export default function InteractiveComponent() {
                 <p className="mt-2 text-sm text-cyan-100">Интернет-магазин</p>
                 <p className="mt-4 leading-7 text-slate-300">Tehnika-M — это компания, которая предлагает широкий ассортимент техники для дома и кухни.</p>
               </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://tehnika-m.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
+              </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
               <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
@@ -149,6 +173,9 @@ export default function InteractiveComponent() {
                 <h3 className="text-2xl font-black">Феномен</h3>
                 <p className="mt-2 text-sm text-cyan-100">Шахматная школа</p>
                 <p className="mt-4 leading-7 text-slate-300">Образовательная ниша, где важны программы, преподаватели, расписание и заявки.</p>
+              </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://fenomen-chess.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
               </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
@@ -160,6 +187,9 @@ export default function InteractiveComponent() {
                 <p className="mt-2 text-sm text-cyan-100">Интернет-магазин</p>
                 <p className="mt-4 leading-7 text-slate-300">«А-Текстиль» — широкий ассортимент тканей, материалов для шитья и швейной фурнитуры.</p>
               </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://atextil.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
+              </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
               <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
@@ -170,6 +200,9 @@ export default function InteractiveComponent() {
                 <p className="mt-2 text-sm text-cyan-100">Системы спутникового мониторинга транспорта</p>
                 <p className="mt-4 leading-7 text-slate-300">Omnicomm — крупный российский разработчик и производитель систем спутникового мониторинга транспорта на базе технологий ГЛОНАСС/GPS.</p>
               </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://omnicomm.pro/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
+              </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
               <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
@@ -179,6 +212,22 @@ export default function InteractiveComponent() {
                 <h3 className="text-2xl font-black">Вистал</h3>
                 <p className="mt-2 text-sm text-cyan-100">Комплектующие для очистных сооружений и изделий из полимерных и композитных материалов</p>
                 <p className="mt-4 leading-7 text-slate-300">Производство, а также оказание услуг по проектированию, монтажу и обслуживанию очистных систем.</p>
+              </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://vistaltlt.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
+              </div>
+            </article>
+            <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
+              <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
+                <span className="rounded-full bg-slate-950/70 px-3 py-1 text-xs text-cyan-100">PHP</span>
+              </div>
+              <div className="p-7">
+                <h3 className="text-2xl font-black">Динамо Манеж</h3>
+                <p className="mt-2 text-sm text-cyan-100">Аренда крытого манежа в Тольятти</p>
+                <p className="mt-4 leading-7 text-slate-300">Аренда крытого спортивного манежа в Тольятти для футбола, волейбола, тимбилдингов, турниров и корпоративных мероприятий.</p>
+              </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://arena-tlt.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
               </div>
             </article>
           </div>
@@ -223,23 +272,23 @@ export default function InteractiveComponent() {
           </div>
           <div className="mt-12 space-y-4">
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько времени занимает разработка сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Сколько времени занимает разработка сайта?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300"><b>Сроки зависят от сложности проекта.</b> Лендинг обычно разрабатывается за 2–4 недели, корпоративный сайт — от 1 до 3 месяцев, а интернет-магазины и нестандартные проекты могут потребовать больше времени. После обсуждения задач я формирую подробный план работ и согласовываю сроки.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Работаете ли вы только с новыми проектами или можете доработать существующий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Работаете ли вы только с новыми проектами или можете доработать существующий сайт?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">Да, я занимаюсь не только разработкой с нуля, но и доработкой уже существующих проектов. Могу исправить ошибки, добавить новый функционал, повысить производительность сайта, улучшить адаптивность и провести техническую оптимизацию.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Какие CMS и технологии вы используете?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Какие CMS и технологии вы используете?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">Работаю с популярными CMS, такими как WordPress, Joomla, 1С-Битрикс и Evolution CMS. Также разрабатываю проекты на PHP, Laravel, JavaScript, React и Vue.js. Выбор технологии зависит от задач бизнеса и требований к проекту.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Входит ли SEO-оптимизация в разработку сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Входит ли SEO-оптимизация в разработку сайта?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">При разработке соблюдаются базовые требования SEO: корректная структура страниц, оптимизированный код, высокая скорость загрузки и адаптивность. Дополнительно могу выполнить SEO-правки по техническому заданию или взять проект на комплексное SEO-продвижение.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Предоставляете ли вы поддержку после завершения проекта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Предоставляете ли вы поддержку после завершения проекта?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">Да, после запуска сайта доступно техническое сопровождение. Оно может включать обновление системы, резервное копирование, мониторинг работоспособности, исправление ошибок, добавление нового функционала и консультации по работе с сайтом.</p>
             </details>
           </div>

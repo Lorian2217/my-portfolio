@@ -135,23 +135,23 @@ export default function InteractiveComponent() {
                 </div>
                 <div className="mt-12 space-y-4">
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что входит в услугу верстки сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Что входит в услугу верстки сайта?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">В услугу входит преобразование дизайн-макетов (Figma, PSD, XD и других форматов) в готовый HTML/CSS/JavaScript-код. Верстка выполняется с учетом адаптивности, кроссбраузерности, скорости загрузки и современных стандартов веб-разработки.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько стоит верстка сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Сколько стоит верстка сайта?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Стоимость зависит от количества страниц, сложности дизайна, наличия анимаций, интерактивных элементов и дополнительных требований. После изучения макетов я предоставляю точную оценку стоимости и сроков выполнения работ.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Будет ли сайт корректно отображаться на мобильных устройствах?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Будет ли сайт корректно отображаться на мобильных устройствах?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Да. Вся верстка выполняется по принципу Mobile First или с полноценной адаптацией под смартфоны, планшеты и компьютеры. Это обеспечивает удобство для пользователей и соответствует современным требованиям поисковых систем.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли интегрировать готовую верстку в CMS или существующий сайт?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Можно ли интегрировать готовую верстку в CMS или существующий сайт?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Да. Готовая верстка может быть интегрирована в WordPress, 1С-Битрикс, Laravel, React, Next.js и другие системы. Также возможно подключение верстки к уже существующему проекту без необходимости полной переработки сайта.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Почему качественная верстка важна для бизнеса?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Почему качественная верстка важна для бизнеса?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">От качества верстки зависит скорость загрузки страниц, удобство пользователей, корректное отображение на разных устройствах и дальнейшее развитие проекта. Чистый и оптимизированный код облегчает поддержку сайта, улучшает пользовательский опыт и положительно влияет на SEO-продвижение.</p>
                     </details>
                 </div>
@@ -182,9 +182,9 @@ export default function InteractiveComponent() {
                         <span className="block font-bold text-white">1C-Bitrix и CMS</span>
                         <span className="mt-1 block text-sm text-slate-400">Корпоративные сайты, каталоги и доработки</span>
                     </Link>
-                        <Link href="/services/verstka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
+                    <Link href="/services/verstka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
                         <span className="block font-bold text-white">Верстка сайта</span>
-                        <span className="mt-1 block text-sm text-slate-400">Адаптивная верстка по Figma на Tailwind</span>
+                        <span className="mt-1 block text-sm text-slate-400">Адаптивная верстка по Figma</span>
                     </Link>
                     <Link href="/services/tehnicheskaya-podderzhka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
                         <span className="block font-bold text-white">Техподдержка сайта</span>

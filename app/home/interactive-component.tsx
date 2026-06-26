@@ -114,6 +114,9 @@ export default function InteractiveComponent() {
                 <p className="mt-2 text-sm text-cyan-100">Федеральная сеть городских курортов</p>
                 <p className="mt-4 leading-7 text-slate-300">Корпоративный проект с большим количеством страниц, услуг и региональных сценариев.</p>
               </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://termoland.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
+              </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
               <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
@@ -123,6 +126,9 @@ export default function InteractiveComponent() {
                 <h3 className="text-2xl font-black">MRC-club</h3>
                 <p className="mt-2 text-sm text-cyan-100">Экосистема для PR, спикеров и СМИ</p>
                 <p className="mt-4 leading-7 text-slate-300">Проект с интерфейсной логикой, личными сценариями и развитием после старой CMS.</p>
+              </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://mrc-club.ru" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
               </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
@@ -134,6 +140,9 @@ export default function InteractiveComponent() {
                 <p className="mt-2 text-sm text-cyan-100">Сайт для семейного отдыха в горах</p>
                 <p className="mt-4 leading-7 text-slate-300">Пример сайта для услуги, где важны визуал, доверие, заявки и понятная структура.</p>
               </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://allure-arkhyz.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
+              </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
               <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
@@ -143,6 +152,9 @@ export default function InteractiveComponent() {
                 <h3 className="text-2xl font-black">Гранд-Мех</h3>
                 <p className="mt-2 text-sm text-cyan-100">Металлообработка и мехобработка</p>
                 <p className="mt-4 leading-7 text-slate-300">B2B-ниша, где нужны услуги, оборудование, техническая экспертиза и формы обращения.</p>
+              </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://grand-mech.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
               </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
@@ -154,6 +166,9 @@ export default function InteractiveComponent() {
                 <p className="mt-2 text-sm text-cyan-100">Производитель брендированной упаковки</p>
                 <p className="mt-4 leading-7 text-slate-300">Проект для производства и оптовых клиентов с акцентом на каталог и доверие.</p>
               </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://beltona.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
+              </div>
             </article>
             <article className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.06]">
               <div className="h-40 bg-gradient-to-br from-cyan-300/25 via-blue-400/15 to-emerald-300/20 p-6">
@@ -163,6 +178,9 @@ export default function InteractiveComponent() {
                 <h3 className="text-2xl font-black">Феномен</h3>
                 <p className="mt-2 text-sm text-cyan-100">Шахматная школа</p>
                 <p className="mt-4 leading-7 text-slate-300">Образовательная ниша, где важны программы, преподаватели, расписание и заявки.</p>
+              </div>
+              <div className="flex justify-center pb-[24px]">
+                <Link href="https://fenomen-chess.ru/" className="rounded-[8px] py-3 px-4 bg-transparent border border-white" target="_blank">Перейти на сайт</Link>
               </div>
             </article>
           </div>
@@ -209,23 +227,23 @@ export default function InteractiveComponent() {
           </div>
           <div className="mt-12 space-y-4">
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Какие задачи вы помогаете решать бизнесу?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Какие задачи вы помогаете решать бизнесу?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">Я разрабатываю сайты и веб-приложения, которые помогают привлекать клиентов, автоматизировать бизнес-процессы и увеличивать продажи. В зависимости от задач проекта это может быть создание нового сайта, модернизация существующего решения, SEO-продвижение, интеграция CRM или техническая поддержка.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько стоит создание сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Сколько стоит создание сайта?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">Стоимость зависит от типа проекта, объема работ и необходимого функционала. Простые сайты и лендинги требуют меньших вложений, а корпоративные порталы, интернет-магазины и индивидуальные веб-приложения рассчитываются отдельно. После обсуждения проекта вы получите подробную смету с прозрачным расчетом стоимости.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Почему стоит заказать разработку у вас, а не в веб-студии?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Почему стоит заказать разработку у вас, а не в веб-студии?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">Работая напрямую с разработчиком, вы получаете быструю коммуникацию, отсутствие посредников и полный контроль над проектом. Все ключевые решения обсуждаются напрямую, что позволяет быстрее внедрять изменения и эффективнее использовать бюджет.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли обратиться, если сайт уже существует?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Можно ли обратиться, если сайт уже существует?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">Да. Помимо разработки новых проектов, я занимаюсь доработкой существующих сайтов, исправлением ошибок, оптимизацией производительности, SEO-настройкой, интеграцией сторонних сервисов и технической поддержкой проектов любой сложности.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Как начать сотрудничество?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Как начать сотрудничество?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">Достаточно оставить заявку через форму обратной связи или связаться любым удобным способом. После обсуждения задач я предложу оптимальный вариант реализации, озвучу сроки и стоимость работ, а затем приступлю к выполнению проекта после согласования всех деталей.</p>
             </details>
           </div>

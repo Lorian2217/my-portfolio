@@ -24,7 +24,7 @@ export default function InteractiveComponent() {
                     <p className="text-sm font-bold uppercase tracking-[.22em] text-cyan-200">Что будет на выходе</p>
                     <div className="mt-6 grid gap-4 sm:grid-cols-2">
                         <div className="rounded-3xl bg-white/[.06] p-5"><span className="text-3xl font-black">01</span><p className="mt-2 font-bold">Понятная структура</p><p className="mt-2 text-sm text-slate-400">Блоки под пользователя, рекламу и поиск.</p></div>
-                        <div className="rounded-3xl bg-white/[.06] p-5"><span className="text-3xl font-black">02</span><p className="mt-2 font-bold">Быстрая верстка</p><p className="mt-2 text-sm text-slate-400">Tailwind, адаптив и аккуратные компоненты.</p></div>
+                        <div className="rounded-3xl bg-white/[.06] p-5"><span className="text-3xl font-black">02</span><p className="mt-2 font-bold">Быстрая верстка</p><p className="mt-2 text-sm text-slate-400">Адаптив и аккуратные компоненты.</p></div>
                         <div className="rounded-3xl bg-white/[.06] p-5"><span className="text-3xl font-black">03</span><p className="mt-2 font-bold">SEO-база</p><p className="mt-2 text-sm text-slate-400">Мета-теги, заголовки, schema.org, sitemap.</p></div>
                         <div className="rounded-3xl bg-white/[.06] p-5"><span className="text-3xl font-black">04</span><p className="mt-2 font-bold">Заявки</p><p className="mt-2 text-sm text-slate-400">Формы, цели, Telegram, CRM и аналитика.</p></div>
                     </div>
@@ -92,23 +92,23 @@ export default function InteractiveComponent() {
                 </div>
                 <div className="mt-12 space-y-4">
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Как быстро вы отвечаете на заявки?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Как быстро вы отвечаете на заявки?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Обычно я отвечаю на обращения в течение нескольких часов в рабочее время. Если заявка поступила вечером или в выходной день, ответ будет предоставлен в ближайшее рабочее время. Для срочных вопросов рекомендуется указывать это в сообщении.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Какие данные нужно предоставить для расчета стоимости проекта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Какие данные нужно предоставить для расчета стоимости проекта?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Для предварительной оценки достаточно кратко описать задачу, цели проекта и желаемый функционал. Если у вас уже есть техническое задание, дизайн-макеты или примеры сайтов, их также можно приложить — это позволит быстрее подготовить точный расчет.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли обсудить проект до начала сотрудничества?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Можно ли обсудить проект до начала сотрудничества?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Да. Перед началом работы проводится консультация, в ходе которой обсуждаются задачи, сроки, бюджет и возможные варианты реализации проекта. Это помогает выбрать оптимальное решение и избежать недопонимания в дальнейшем.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Работаете ли вы с клиентами из других городов и стран?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Работаете ли вы с клиентами из других городов и стран?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Да. Большинство рабочих процессов можно организовать полностью удаленно. Обсуждение проекта, согласование этапов, обмен материалами и сдача работ выполняются через удобные онлайн-инструменты без привязки к местоположению клиента.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли обратиться за разовой помощью или консультацией?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Можно ли обратиться за разовой помощью или консультацией?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Конечно. Вы можете обратиться не только за полноценной разработкой сайта, но и за консультацией, аудитом проекта, исправлением ошибок, доработкой существующего функционала или решением конкретной технической задачи.</p>
                     </details>
                 </div>
@@ -141,7 +141,7 @@ export default function InteractiveComponent() {
                     </Link>
                         <Link href="/services/verstka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
                         <span className="block font-bold text-white">Верстка сайта</span>
-                        <span className="mt-1 block text-sm text-slate-400">Адаптивная верстка по Figma на Tailwind</span>
+                        <span className="mt-1 block text-sm text-slate-400">Адаптивная верстка по Figma</span>
                     </Link>
                     <Link href="/services/tehnicheskaya-podderzhka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
                         <span className="block font-bold text-white">Техподдержка сайта</span>

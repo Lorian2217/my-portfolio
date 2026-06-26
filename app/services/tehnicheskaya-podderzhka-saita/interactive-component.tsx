@@ -135,23 +135,23 @@ export default function InteractiveComponent() {
                 </div>
                 <div className="mt-12 space-y-4">
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что входит в техническую поддержку сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Что входит в техническую поддержку сайта?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Техническая поддержка включает мониторинг работоспособности сайта, обновление CMS и модулей, резервное копирование, устранение ошибок, защиту от уязвимостей, контроль доступности ресурса и выполнение небольших доработок по запросу клиента.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько стоит техническая поддержка сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Сколько стоит техническая поддержка сайта?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Стоимость зависит от сложности проекта, используемой CMS, объема работ и необходимой скорости реагирования. Возможны как разовые услуги по исправлению ошибок, так и ежемесячное сопровождение сайта по фиксированному тарифу.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что делать, если сайт перестал работать или возникла ошибка?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Что делать, если сайт перестал работать или возникла ошибка?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">В случае возникновения технических проблем проводится диагностика проекта, поиск причины сбоя и оперативное восстановление работоспособности сайта. Чем раньше проблема будет обнаружена, тем меньше риск потери клиентов и данных.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Нужна ли техническая поддержка, если сайт уже работает без ошибок?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Нужна ли техническая поддержка, если сайт уже работает без ошибок?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Да. Даже стабильно работающий сайт требует регулярных обновлений, проверки безопасности, резервного копирования и контроля производительности. Это помогает предотвратить взломы, сбои и проблемы после обновления серверного программного обеспечения.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Поддерживаете ли вы сайты, разработанные другими специалистами?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Поддерживаете ли вы сайты, разработанные другими специалистами?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Да. Можно передать на сопровождение уже существующий проект независимо от того, кто его разрабатывал. Перед началом работ проводится аудит сайта, после чего составляется план поддержки, оптимизации и дальнейшего развития проекта.</p>
                     </details>
                 </div>
@@ -184,7 +184,7 @@ export default function InteractiveComponent() {
                     </Link>
                         <Link href="/services/verstka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
                         <span className="block font-bold text-white">Верстка сайта</span>
-                        <span className="mt-1 block text-sm text-slate-400">Адаптивная верстка по Figma на Tailwind</span>
+                        <span className="mt-1 block text-sm text-slate-400">Адаптивная верстка по Figma</span>
                     </Link>
                     <Link href="/services/tehnicheskaya-podderzhka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
                         <span className="block font-bold text-white">Техподдержка сайта</span>

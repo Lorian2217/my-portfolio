@@ -136,23 +136,23 @@ export default function InteractiveComponent() {
                 </div>
                 <div className="mt-12 space-y-4">
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Чем лендинг отличается от обычного сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Чем лендинг отличается от обычного сайта?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Лендинг — это одностраничный сайт, созданный для достижения одной конкретной цели: продажи товара, сбора заявок, записи на услугу или презентации продукта. В отличие от многостраничного сайта, лендинг концентрирует внимание посетителя на целевом действии и помогает повысить конверсию.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько стоит разработка лендинга?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Сколько стоит разработка лендинга?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Стоимость зависит от сложности дизайна, объема контента, необходимости написания текстов, настройки аналитики и дополнительных интеграций. После обсуждения проекта я подготавливаю индивидуальное коммерческое предложение с прозрачным расчетом стоимости и сроков.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">За какой срок можно создать лендинг?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>За какой срок можно создать лендинг?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">В большинстве случаев разработка лендинга занимает от нескольких дней до нескольких недель. Точные сроки зависят от готовности материалов, сложности дизайна и требуемого функционала. Перед началом работ согласовывается подробный план реализации проекта.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Будет ли лендинг приносить заявки сразу после запуска?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Будет ли лендинг приносить заявки сразу после запуска?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Эффективность лендинга зависит не только от разработки, но и от качества рекламного трафика, конкурентности ниши и привлекательности предложения. При создании страницы используются современные принципы UX/UI-дизайна и маркетинга, чтобы максимально увеличить вероятность получения заявок и продаж.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли в будущем расширить лендинг до полноценного сайта?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Можно ли в будущем расширить лендинг до полноценного сайта?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Да. При необходимости лендинг может стать основой для дальнейшего развития проекта. В будущем можно добавить новые страницы, блог, каталог услуг, интернет-магазин или личный кабинет без полного создания сайта с нуля.</p>
                     </details>
                 </div>

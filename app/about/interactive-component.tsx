@@ -31,7 +31,7 @@ export default function InteractiveComponent() {
               <div className="rounded-3xl bg-white/[.06] p-5">
                 <span className="text-3xl font-black">02</span>
                 <p className="mt-2 font-bold">Быстрая верстка</p>
-                <p className="mt-2 text-sm text-slate-400">Tailwind, адаптив и аккуратные компоненты.</p>
+                <p className="mt-2 text-sm text-slate-400">Адаптив и аккуратные компоненты.</p>
               </div>
               <div className="rounded-3xl bg-white/[.06] p-5">
                 <span className="text-3xl font-black">03</span>
@@ -92,23 +92,23 @@ export default function InteractiveComponent() {
           </div>
           <div className="mt-12 space-y-4">
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько лет вы занимаетесь веб-разработкой?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Сколько лет вы занимаетесь веб-разработкой?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">Я занимаюсь разработкой и сопровождением веб-проектов более 3 лет. За это время реализовал проекты различной сложности — от небольших лендингов до корпоративных сайтов, интернет-магазинов и индивидуальных веб-приложений для бизнеса.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Работаете ли вы самостоятельно или в команде?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Работаете ли вы самостоятельно или в команде?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">Основную часть проектов я выполняю лично, что позволяет контролировать качество работ на каждом этапе. При необходимости к проекту могут привлекаться проверенные специалисты для решения узкопрофильных задач, таких как дизайн, копирайтинг или контекстная реклама.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">С какими клиентами вы работаете?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>С какими клиентами вы работаете?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">Я сотрудничаю как с частными клиентами и индивидуальными предпринимателями, так и с малыми и средними компаниями. Независимо от масштаба проекта, каждый клиент получает индивидуальный подход и решение, ориентированное на достижение конкретных бизнес-целей.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Как строится работа над проектом?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Как строится работа над проектом?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">Работа начинается с обсуждения задач и требований. После этого формируется план реализации, согласовываются сроки и стоимость. На протяжении всего проекта поддерживается связь с заказчиком, а ключевые этапы разработки проходят согласование перед переходом к следующему этапу.</p>
             </details>
             <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Почему стоит обратиться именно к вам?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Почему стоит обратиться именно к вам?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
               <p className="mt-4 leading-7 text-slate-300">Я делаю ставку на долгосрочное сотрудничество, прозрачность работы и качество результата. Вместо шаблонного подхода предлагаются решения, которые учитывают особенности бизнеса, помогают привлекать клиентов и обеспечивают возможность дальнейшего развития проекта без необходимости создавать сайт заново.</p>
             </details>
           </div>
@@ -141,7 +141,7 @@ export default function InteractiveComponent() {
               </Link>
                   <Link href="/services/verstka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
                   <span className="block font-bold text-white">Верстка сайта</span>
-                  <span className="mt-1 block text-sm text-slate-400">Адаптивная верстка по Figma на Tailwind</span>
+                  <span className="mt-1 block text-sm text-slate-400">Адаптивная верстка по Figma</span>
               </Link>
               <Link href="/services/tehnicheskaya-podderzhka-saita/" className="rounded-2xl border border-white/10 bg-white/[.05] p-4 transition hover:border-cyan-300/40 hover:bg-white/[.08]">
                   <span className="block font-bold text-white">Техподдержка сайта</span>

@@ -135,23 +135,23 @@ export default function InteractiveComponent() {
                 </div>
                 <div className="mt-12 space-y-4">
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Какие CRM-системы можно интегрировать с сайтом?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Какие CRM-системы можно интегрировать с сайтом?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Возможна интеграция с популярными CRM-системами, такими как Битрикс24, amoCRM, Мегаплан и другими решениями. Также можно настроить обмен данными с корпоративными CRM через API, если используется собственная система управления клиентами.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Что дает интеграция CRM с сайтом?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Что дает интеграция CRM с сайтом?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">После интеграции все заявки с сайта автоматически передаются в CRM, что исключает ручной ввод данных и снижает риск потери клиентов. Менеджеры получают обращения мгновенно, а руководство может отслеживать эффективность рекламных каналов и работу отдела продаж.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Сколько стоит интеграция CRM?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Сколько стоит интеграция CRM?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Стоимость зависит от используемой CRM-системы, количества форм на сайте, сложности бизнес-процессов и необходимости дополнительных доработок. Простая интеграция может быть выполнена быстро, а для нестандартных сценариев подготавливается индивидуальное решение.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Нужно ли менять существующий сайт для подключения CRM?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Нужно ли менять существующий сайт для подключения CRM?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">В большинстве случаев нет. Интеграцию можно выполнить на уже работающем сайте независимо от используемой CMS или технологии разработки. При необходимости дополнительно настраиваются формы обратной связи, онлайн-чаты и другие точки сбора заявок.</p>
                     </details>
                     <details className="group rounded-3xl border border-white/10 bg-white/[.06] p-6 open:bg-white/[.09]">
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black">Можно ли автоматизировать не только заявки, но и другие процессы?<span className="text-cyan-200 group-open:rotate-45">+</span></summary>
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-black"><h3>Можно ли автоматизировать не только заявки, но и другие процессы?</h3><span className="text-cyan-200 group-open:rotate-45">+</span></summary>
                         <p className="mt-4 leading-7 text-slate-300">Да. Помимо передачи заявок, можно настроить автоматическое создание сделок, отправку уведомлений менеджерам, интеграцию с телефонией, почтой, мессенджерами, сервисами аналитики и другими бизнес-инструментами. Это позволяет значительно сократить рутинные операции и повысить эффективность работы компании.</p>
                     </details>
                 </div>
