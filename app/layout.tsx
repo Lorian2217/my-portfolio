@@ -7,6 +7,7 @@ import ModalProvider from "./providers/modal-provider";
 import Header from './components/header';
 import Footer from './components/footer';
 import LeadModal from './components/modal';
+import Metrika from './components/metrika';
 
 // Подключаем стили
 // import "./globals.css";
@@ -93,6 +94,8 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} font-sans text-slate-100 antialiased`}>
         <Header />
+
+        <Metrika />
 
         {children}
 
