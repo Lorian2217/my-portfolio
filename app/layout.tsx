@@ -32,12 +32,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Разработка сайтов на React, Next.js и Bitrix - Lorian',
-  description: 'Разработка сайтов, лендингов и веб-приложений на React, Next.js, Bitrix и CMS. SEO-структура, формы, аналитика, интеграции и поддержка.',
+  title: 'Разработка сайтов на React, Next.js и Bitrix в Тольятти | Данила Мохнаткин — Lorian',
+  description: 'Разработка сайтов под ключ на Bitrix и React. Создание корпоративных сайтов, интернет-магазинов и лендингов. Интеграция CRM, техническая поддержка и сопровождение. Работаю в Тольятти и по всей России.',
 
   openGraph: {
-    title: 'Разработка сайтов на React, Next.js и Bitrix - Lorian',
-    description: 'Разработка сайтов, лендингов и веб-приложений на React, Next.js, Bitrix и CMS. SEO-структура, формы, аналитика, интеграции и поддержка.',
+    title: 'Разработка сайтов на React, Next.js и Bitrix в Тольятти | Данила Мохнаткин — Lorian',
+    description: 'Разработка сайтов под ключ на Bitrix и React. Создание корпоративных сайтов, интернет-магазинов и лендингов. Интеграция CRM, техническая поддержка и сопровождение. Работаю в Тольятти и по всей России.',
     url: 'https://lorian.su/',
     siteName: 'Lorian',
     locale: 'ru_RU',

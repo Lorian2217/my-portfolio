@@ -58,7 +58,7 @@ export default function InteractiveComponent() {
                                 <div className="p-6">
                                     <h2 className="text-xl font-semibold text-white mb-3"> {article.title} </h2>
                                     <p className="text-slate-400 mb-5 line-clamp-3"> {article.description} </p>
-                                    <a href={`/blog/${article.slug}`} className="text-blue-400 hover:text-blue-300" > Читать → </a>
+                                    <a href={`/blog/${article.slug}/`} className="text-blue-400 hover:text-blue-300" > Читать → </a>
                                 </div>
                             </article>
                         ))}

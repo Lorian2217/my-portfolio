@@ -55,5 +55,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: 'https://lorian.su/contacts/',
       lastModified: "2026-06-08",
     },
+    {
+      url: 'https://lorian.su/privacy/',
+      lastModified: "2026-06-08",
+    },
+    {
+      url: 'https://lorian.su/terms/',
+      lastModified: "2026-06-08",
+    },
+    {
+      url: 'https://lorian.su/blog/',
+      lastModified: "2026-06-08",
+    },
+    {
+      url: 'https://lorian.su/blog/react-vs-nextjs/',
+      lastModified: "2026-06-08",
+    },
+    {
+      url: 'https://lorian.su/blog/seo-2026/',
+      lastModified: "2026-06-08",
+    },
+    {
+      url: 'https://lorian.su/blog/crm-integration/',
+      lastModified: "2026-06-08",
+    },
+    {
+      url: 'https://lorian.su/blog/bitrix/',
+      lastModified: "2026-06-08",
+    },
   ]
 }

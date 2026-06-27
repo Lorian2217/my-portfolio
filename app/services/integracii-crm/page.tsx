@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import InteractiveComponent from './interactive-component'
 
 export const metadata: Metadata = {
-  title: 'Интеграции сайта с CRM, Telegram, почтой и аналитикой',
-  description: 'Интеграция сайта с CRM, Telegram, почтой, Яндекс Метрикой и внешними сервисами. Формы заявок, уведомления, цели, события и API.',
+  title: 'Интеграция сайта с CRM | AmoCRM, Telegram, MAX, VK',
+  description: 'Интеграция сайта с AmoCRM, Telegram, MAX и VK. Автоматическая передача заявок с сайта, настройка CRM и автоматизация бизнес-процессов.',
 
   openGraph: {
-    title: 'Интеграции сайта с CRM, Telegram, почтой и аналитикой',
-    description: 'Интеграция сайта с CRM, Telegram, почтой, Яндекс Метрикой и внешними сервисами. Формы заявок, уведомления, цели, события и API.',
+    title: 'Интеграция сайта с CRM | AmoCRM, Telegram, MAX, VK',
+    description: 'Интеграция сайта с AmoCRM, Telegram, MAX и VK. Автоматическая передача заявок с сайта, настройка CRM и автоматизация бизнес-процессов.',
     url: 'https://lorian.su/services/integracii-crm/',
     siteName: 'Lorian',
     locale: 'ru_RU',

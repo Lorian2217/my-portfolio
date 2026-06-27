@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import InteractiveComponent from './interactive-component'
 
 export const metadata: Metadata = {
-  title: 'Разработка и доработка сайтов на 1C-Bitrix и CMS',
-  description: 'Доработка сайтов на 1C-Bitrix, WordPress, Joomla и других CMS: шаблоны, компоненты, формы, каталоги, SEO-правки и техподдержка.',
+  title: 'Разработка сайтов на 1С-Битрикс | Создание и доработка Bitrix',
+  description: 'Разработка и доработка сайтов на 1С-Битрикс. Корпоративные сайты, интернет-магазины, каталоги, интеграции с 1С и CRM, техническая поддержка.',
 
   openGraph: {
-    title: 'Разработка и доработка сайтов на 1C-Bitrix и CMS',
-    description: 'Доработка сайтов на 1C-Bitrix, WordPress, Joomla и других CMS: шаблоны, компоненты, формы, каталоги, SEO-правки и техподдержка.',
+    title: 'Разработка сайтов на 1С-Битрикс | Создание и доработка Bitrix',
+    description: 'Разработка и доработка сайтов на 1С-Битрикс. Корпоративные сайты, интернет-магазины, каталоги, интеграции с 1С и CRM, техническая поддержка.',
     url: 'https://lorian.su/services/bitrix/',
     siteName: 'Lorian',
     locale: 'ru_RU',

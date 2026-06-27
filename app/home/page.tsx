@@ -3,7 +3,7 @@ import InteractiveComponent from './interactive-component'
 const schema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  name: "Lorian - разработка сайтов",
+  name: "Данила Мохнаткин - разработка сайтов",
   url: "https://lorian.su",
   email: "lorian2221@yandex.ru",
   areaServed: "Россия",
