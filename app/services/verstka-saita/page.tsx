@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import InteractiveComponent from './interactive-component'
 
 export const metadata: Metadata = {
-  title: 'Верстка сайта по макету Figma на Tailwind CSS',
-  description: 'Адаптивная верстка сайта по макету Figma: Tailwind CSS, Pixel Perfect, мобильная версия, чистая структура, подготовка к Next.js или CMS.',
+  title: 'Верстка сайтов по макету Figma | HTML, CSS, JavaScript',
+  description: 'Адаптивная верстка сайтов по макетам Figma. Pixel Perfect, кроссбраузерность, высокая скорость загрузки и чистый код.',
 
   openGraph: {
-    title: 'Верстка сайта по макету Figma на Tailwind CSS',
-    description: 'Адаптивная верстка сайта по макету Figma: Tailwind CSS, Pixel Perfect, мобильная версия, чистая структура, подготовка к Next.js или CMS.',
+    title: 'Верстка сайтов по макету Figma | HTML, CSS, JavaScript',
+    description: 'Адаптивная верстка сайтов по макетам Figma. Pixel Perfect, кроссбраузерность, высокая скорость загрузки и чистый код.',
     url: 'https://lorian.su/services/verstka-saita/',
     siteName: 'Lorian',
     locale: 'ru_RU',

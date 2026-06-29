@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import InteractiveComponent from './interactive-component'
 
 export const metadata: Metadata = {
-  title: 'Разработка лендинга под рекламу в Тольятти | Создание Landing Page',
-  description: 'Разработка лендингов под рекламу с высокой конверсией. Создание Landing Page для услуг, товаров и бизнеса. Индивидуальный дизайн, адаптивность и SEO-подготовка.',
+  title: 'Разработка лендинга под рекламу | Создание Landing Page',
+  description: 'Разработка лендингов с высокой конверсией для рекламы. Индивидуальный дизайн, адаптивная верстка, SEO-подготовка и интеграция CRM.',
 
   openGraph: {
-    title: 'Разработка лендинга под рекламу в Тольятти | Создание Landing Page',
-    description: 'Разработка лендингов под рекламу с высокой конверсией. Создание Landing Page для услуг, товаров и бизнеса. Индивидуальный дизайн, адаптивность и SEO-подготовка.',
+    title: 'Разработка лендинга под рекламу | Создание Landing Page',
+    description: 'Разработка лендингов с высокой конверсией для рекламы. Индивидуальный дизайн, адаптивная верстка, SEO-подготовка и интеграция CRM.',
     url: 'https://lorian.su/services/landing-page/',
     siteName: 'Lorian',
     locale: 'ru_RU',

@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import InteractiveComponent from './interactive-component'
 
 export const metadata: Metadata = {
-  title: 'Блог со статьями - Lorian',
-  description: 'Блог со статьями - Lorian',
+  title: 'Блог о разработке сайтов, Bitrix, React и SEO',
+  description: 'Полезные статьи о разработке сайтов, Bitrix, React, Next.js, SEO, CRM и современных веб-технологиях.',
 
   openGraph: {
-    title: 'Блог со статьями - Lorian',
-    description: 'Блог со статьями - Lorian',
+    title: 'Блог о разработке сайтов, Bitrix, React и SEO',
+    description: 'Полезные статьи о разработке сайтов, Bitrix, React, Next.js, SEO, CRM и современных веб-технологиях.',
     url: 'https://lorian.su/blog/',
     siteName: 'Lorian',
     locale: 'ru_RU',

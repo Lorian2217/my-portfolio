@@ -3,11 +3,11 @@ import InteractiveComponent from './interactive-component'
 
 export const metadata: Metadata = {
   title: 'Интеграция сайта с CRM | AmoCRM, Telegram, MAX, VK',
-  description: 'Интеграция сайта с AmoCRM, Telegram, MAX и VK. Автоматическая передача заявок с сайта, настройка CRM и автоматизация бизнес-процессов.',
+  description: 'Интеграция сайта с AmoCRM, Telegram, MAX и VK. Автоматическая передача заявок, настройка CRM и автоматизация бизнес-процессов.',
 
   openGraph: {
     title: 'Интеграция сайта с CRM | AmoCRM, Telegram, MAX, VK',
-    description: 'Интеграция сайта с AmoCRM, Telegram, MAX и VK. Автоматическая передача заявок с сайта, настройка CRM и автоматизация бизнес-процессов.',
+    description: 'Интеграция сайта с AmoCRM, Telegram, MAX и VK. Автоматическая передача заявок, настройка CRM и автоматизация бизнес-процессов.',
     url: 'https://lorian.su/services/integracii-crm/',
     siteName: 'Lorian',
     locale: 'ru_RU',

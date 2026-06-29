@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import InteractiveComponent from './interactive-component'
 
 export const metadata: Metadata = {
-  title: 'SEO-оптимизация сайта - технические правки и структура',
-  description: 'SEO-оптимизация сайта: технический аудит, мета-теги, заголовки, микроразметка, sitemap, robots, скорость, посадочные страницы и перелинковка.',
+  title: 'SEO-оптимизация сайта | Продвижение сайта в поисковых системах',
+  description: 'SEO-оптимизация сайтов для Яндекс и Google. Техническое SEO, оптимизация структуры, скорости загрузки и подготовка сайта к продвижению.',
 
   openGraph: {
-    title: 'SEO-оптимизация сайта - технические правки и структура',
-    description: 'SEO-оптимизация сайта: технический аудит, мета-теги, заголовки, микроразметка, sitemap, robots, скорость, посадочные страницы и перелинковка.',
+    title: 'SEO-оптимизация сайта | Продвижение сайта в поисковых системах',
+    description: 'SEO-оптимизация сайтов для Яндекс и Google. Техническое SEO, оптимизация структуры, скорости загрузки и подготовка сайта к продвижению.',
     url: 'https://lorian.su/services/seo-optimizaciya-saita/',
     siteName: 'Lorian',
     locale: 'ru_RU',

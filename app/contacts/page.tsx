@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import InteractiveComponent from './interactive-component'
 
 export const metadata: Metadata = {
-  title: 'Контакты - заказать разработку сайта у Lorian',
-  description: 'Контакты для заказа разработки сайта, лендинга, доработки CMS, React/Next.js проекта, SEO-правок, технической поддержки и интеграций.',
+  title: 'Контакты | Заказать разработку сайта',
+  description: 'Свяжитесь со мной для разработки сайта на Bitrix или React. Консультация, оценка проекта и техническая поддержка.',
 
   openGraph: {
-    title: 'Контакты - заказать разработку сайта у Lorian',
-    description: 'Контакты для заказа разработки сайта, лендинга, доработки CMS, React/Next.js проекта, SEO-правок, технической поддержки и интеграций.',
+    title: 'Контакты | Заказать разработку сайта',
+    description: 'Свяжитесь со мной для разработки сайта на Bitrix или React. Консультация, оценка проекта и техническая поддержка.',
     url: 'https://lorian.su/contacts/',
     siteName: 'Lorian',
     locale: 'ru_RU',

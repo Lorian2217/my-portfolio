@@ -221,6 +221,248 @@ export default function InteractiveComponent() {
                 </div>
             </div>
         </section>
+
+        <section className="px-4 pb-24 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-7xl glass px-5 py-4 rounded-[2.5rem]">
+                <h2 className="text-2xl font-black">Услуги по разработке сайтов — Bitrix, React, SEO и CRM интеграции</h2>
+                <p className="py-3">На этой странице представлены основные услуги по разработке сайтов, которые я предоставляю как веб-разработчик. Я занимаюсь созданием современных цифровых решений для бизнеса, начиная от простых лендингов и заканчивая сложными веб-сервисами, интернет-магазинами и корпоративными системами. Основное направление работы — разработка сайтов под ключ, включающая полный цикл: от идеи и проектирования до запуска и дальнейшего развития проекта.</p>
+                <h2 className="text-2xl font-black">Разработка сайтов под ключ</h2>
+                <p className="py-3">Разработка сайтов под ключ — это комплексный процесс, который включает анализ бизнеса, проектирование структуры, разработку дизайна, программирование, адаптацию под мобильные устройства, базовую SEO-оптимизацию и запуск проекта. Такой подход позволяет получить полностью готовый сайт, который можно сразу использовать для привлечения клиентов и увеличения продаж.</p>
+                <p className="py-3">Я занимаюсь созданием сайтов для компаний, предпринимателей и специалистов, которым важно не просто присутствие в интернете, а получение реальных заявок и клиентов. Каждый проект разрабатывается индивидуально, без шаблонных решений.</p>
+                <h2 className="text-2xl font-black">Создание сайтов любой сложности</h2>
+                <p className="py-3">Профессиональное создание сайтов включает разработку различных типов проектов:</p>
+                <ul className="ml-[30px]">
+                    <li className="list-disc">корпоративные сайты для бизнеса</li>
+                    <li className="list-disc">лендинги для рекламы и продвижения</li>
+                    <li className="list-disc">интернет-магазины и каталоги</li>
+                    <li className="list-disc">веб-сервисы и личные кабинеты</li>
+                    <li className="list-disc">сложные CRM и SaaS-платформы</li>
+                </ul>
+                <p className="py-3">Каждый сайт разрабатывается с учетом задач бизнеса, целевой аудитории и требований поисковых систем. Особое внимание уделяется скорости загрузки, удобству интерфейса и конверсии.</p>
+                <h2 className="text-2xl font-black">Разработка сайтов на Bitrix</h2>
+                <p className="py-3">Одним из ключевых направлений является разработка сайтов на Bitrix. Эта CMS подходит для корпоративных порталов, интернет-магазинов и крупных проектов, где важны безопасность, масштабируемость и интеграции с 1С и CRM-системами.</p>
+                <p className="py-3">Разработка сайтов на Bitrix включает:</p>
+                <ul className="ml-[30px]">
+                    <li className="list-disc">настройку структуры и компонентов</li>
+                    <li className="list-disc">разработку шаблонов</li>
+                    <li className="list-disc">интеграцию с CRM и 1С</li>
+                    <li className="list-disc">оптимизацию производительности</li>
+                    <li className="list-disc">настройку SEO-модуля</li>
+                </ul>
+                <p className="py-3">Сайты на Bitrix легко масштабируются и подходят для долгосрочного развития бизнеса.</p>
+                <h2 className="text-2xl font-black">Разработка сайтов на React</h2>
+                <p className="py-3">Также выполняется разработка сайтов на React и современных frontend-решениях. React позволяет создавать быстрые, интерактивные и удобные интерфейсы для пользователей.</p>
+                <p className="py-3">Разработка сайтов на React подходит для:</p>
+                <ul className="ml-[30px]">
+                    <li className="list-disc">SPA приложений</li>
+                    <li className="list-disc">личных кабинетов</li>
+                    <li className="list-disc">CRM систем</li>
+                    <li className="list-disc">онлайн-сервисов</li>
+                    <li className="list-disc">сложных веб-платформ</li>
+                </ul>
+                <p className="py-3">React обеспечивает высокую скорость работы и гибкость интерфейса.</p>
+                <h2 className="text-2xl font-black">Разработка сайтов в Тольятти</h2>
+                <p className="py-3">Я предоставляю услуги разработки сайтов в Тольятти, а также работаю с клиентами по всей России. Локальное SEO и понимание регионального рынка позволяют создавать сайты, которые эффективно продвигаются по геозапросам и привлекают клиентов из нужного региона.</p>
+                <h2 className="text-2xl font-black">Интеграции с CRM и автоматизация</h2>
+                <p className="py-3">Современный сайт должен не только привлекать посетителей, но и автоматически обрабатывать заявки. Поэтому я выполняю интеграции с CRM, включая:</p>
+                <ul className="ml-[30px]">
+                    <li className="list-disc">AmoCRM</li>
+                    <li className="list-disc">Bitrix24</li>
+                    <li className="list-disc">Telegram уведомления</li>
+                    <li className="list-disc">VK и другие каналы</li>
+                </ul>
+                <p className="py-3">Все заявки с сайта автоматически попадают в систему учета, что ускоряет обработку клиентов и повышает продажи.</p>
+                <h2 className="text-2xl font-black">SEO-оптимизация сайтов</h2>
+                <p className="py-3">Важной частью услуг является SEO-оптимизация сайта. Без нее даже хороший сайт не приносит клиентов.</p>
+                <p className="py-3">SEO включает:</p>
+                <ul className="ml-[30px]">
+                    <li className="list-disc">техническую оптимизацию сайта</li>
+                    <li className="list-disc">настройку метатегов Title и Description</li>
+                    <li className="list-disc">сбор семантического ядра</li>
+                    <li className="list-disc">оптимизацию скорости загрузки</li>
+                    <li className="list-disc">внутреннюю перелинковку</li>
+                    <li className="list-disc">подготовку к продвижению в Яндекс и Google</li>
+                </ul>
+                <p className="py-3">Грамотная SEO оптимизация сайта позволяет вывести сайт в топ поисковой выдачи и получать стабильный поток клиентов без рекламы.</p>
+                <h2 className="text-2xl font-black">Техническая поддержка и развитие</h2>
+                <p className="py-3">После запуска сайт требует постоянного сопровождения. Я предоставляю техническую поддержку сайта, которая включает:</p>
+                <ul className="ml-[30px]">
+                    <li className="list-disc">обновление функционала</li>
+                    <li className="list-disc">устранение ошибок</li>
+                    <li className="list-disc">ускорение загрузки</li>
+                    <li className="list-disc">развитие после запуска</li>
+                    <li className="list-disc">резервное копирование</li>
+                </ul>
+                <p className="py-3">Регулярное развитие сайта позволяет сохранять его эффективность и улучшать результаты.</p>
+                <h2 className="text-2xl font-black">Почему выбирают меня</h2>
+                <p className="py-3">Я работаю как самостоятельный разработчик, без посредников и менеджеров. Это означает:</p>
+                <ul className="ml-[30px]">
+                    <li className="list-disc">прямое общение</li>
+                    <li className="list-disc">быстрые решения</li>
+                    <li className="list-disc">ответственность за результат</li>
+                    <li className="list-disc">глубокое понимание проекта</li>
+                </ul>
+                <p className="py-3">Каждый сайт создается вручную, с учетом задач бизнеса и целей продвижения.</p>
+                <p className="py-3">Если вам нужна разработка сайтов под ключ, создание сайтов, SEO-оптимизация сайта, разработка сайтов на Bitrix или React, или интеграции с CRM — я помогу реализовать проект, который будет приносить результат и развивать ваш бизнес в интернете.</p>
+            </div>
+        </section>
+
+        {/*
+        <section className="mx-auto mt-20 max-w-7xl">
+            <div className="mb-10">
+                <span className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300">
+                    Стоимость
+                </span>
+
+                <h2 className="mt-3 text-5xl font-black text-white">
+                    Сколько стоит разработка
+                </h2>
+
+                <p className="mt-4 max-w-2xl text-lg text-zinc-400">
+                    Выберите подходящий вариант. Если не уверены —
+                    помогу подобрать решение под ваши задачи.
+                </p>
+            </div>
+
+            <div className="grid gap-6 lg:grid-cols-4">
+
+                    START
+                <div className="group rounded-[32px] border border-white/10 bg-[#171A26] p-8 transition hover:border-cyan-400/50 hover:-translate-y-1">
+
+                    <div className="mb-8 flex items-center justify-between">
+                        <span className="rounded-full bg-cyan-400/10 px-4 py-2 text-sm text-cyan-300">
+                            Старт
+                        </span>
+
+                        <span className="text-zinc-500">
+                            от
+                        </span>
+                    </div>
+
+                    <h3 className="text-5xl font-black text-white">
+                        35
+                        <span className="text-2xl"> 000 ₽</span>
+                    </h3>
+
+                    <p className="mt-5 text-zinc-400">
+                        Одностраничный лендинг
+                        под рекламу или презентацию услуги.
+                    </p>
+
+                    <ul className="mt-8 space-y-3 text-zinc-300">
+
+                        <li>✓ До 10 экранов</li>
+                        <li>✓ Адаптив</li>
+                        <li>✓ Базовое SEO</li>
+                        <li>✓ Форма заявки</li>
+
+                    </ul>
+
+                    <button
+                        className="mt-10 w-full rounded-2xl bg-cyan-400 py-4 font-semibold text-black transition hover:bg-cyan-300">
+                        Заказать услугу
+                    </button>
+
+                </div>
+
+                BUSINESS
+
+                <div className="relative rounded-[32px] border border-cyan-400 bg-[#1A2030] p-8">
+
+                    <div className="absolute right-6 top-6 rounded-full bg-cyan-400 px-3 py-1 text-xs font-bold text-black">
+                        Популярно
+                    </div>
+
+                    <span className="rounded-full bg-cyan-400/10 px-4 py-2 text-sm text-cyan-300">
+                        Бизнес
+                    </span>
+
+                    <h3 className="mt-8 text-5xl font-black text-white">
+                        75
+                        <span className="text-2xl"> 000 ₽</span>
+                    </h3>
+
+                    <p className="mt-5 text-zinc-300">
+                        Полноценный сайт компании
+                        с SEO и заявками.
+                    </p>
+
+                    <ul className="mt-8 space-y-3 text-zinc-300">
+
+                        <li>✓ До 20 страниц</li>
+                        <li>✓ CMS</li>
+                        <li>✓ SEO структура</li>
+                        <li>✓ Telegram уведомления</li>
+                        <li>✓ Карта сайта</li>
+
+                    </ul>
+
+                    <button className="mt-10 w-full rounded-2xl bg-cyan-400 py-4 font-semibold text-black">
+                        Заказать услугу
+                    </button>
+
+                </div>
+
+                PRO
+
+                <div className="rounded-[32px] border border-white/10 bg-[#171A26] p-8">
+
+                    <span className="rounded-full bg-cyan-400/10 px-4 py-2 text-sm text-cyan-300">
+                        Pro
+                    </span>
+
+                    <h3 className="mt-8 text-5xl font-black text-white">
+                        140
+                        <span className="text-2xl"> 000 ₽</span>
+                    </h3>
+
+                    <p className="mt-5 text-zinc-400">
+                        Интернет-магазин или
+                        сложный корпоративный проект.
+                    </p>
+
+                    <ul className="mt-8 space-y-3 text-zinc-300">
+
+                        <li>✓ Каталог</li>
+                        <li>✓ Фильтры</li>
+                        <li>✓ CRM</li>
+                        <li>✓ Интеграции</li>
+                        <li>✓ Аналитика</li>
+
+                    </ul>
+
+                    <button className="mt-10 w-full rounded-2xl border border-cyan-400 py-4 font-semibold text-cyan-300 transition hover:bg-cyan-400 hover:text-black">
+                        Заказать услугу
+                    </button>
+
+                </div>
+
+                CUSTOM
+
+                <div className="rounded-[32px] border border-dashed border-cyan-400/40 bg-[#121520] p-8">
+
+                    <span className="rounded-full bg-cyan-400/10 px-4 py-2 text-sm text-cyan-300">
+                        Индивидуально
+                    </span>
+
+                    <h3 className="mt-8 text-4xl font-black text-white">
+                        По запросу
+                    </h3>
+
+                    <p className="mt-5 text-zinc-400">
+                        Если проект не подходит
+                        под стандартные тарифы.
+                    </p>
+
+                    <button className="mt-10 w-full rounded-2xl border border-cyan-400 py-4 font-semibold text-cyan-300 transition hover:bg-cyan-400 hover:text-black">
+                        Обсудить проект
+                    </button>
+
+                </div>
+
+            </div>
+        </section>
+        */}
     </main>
   );
 }

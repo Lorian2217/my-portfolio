@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import InteractiveComponent from './interactive-component'
 
 export const metadata: Metadata = {
-  title: 'Проекты и кейсы разработки сайтов - Lorian',
-  description: 'Проекты разработки сайтов на Bitrix, Joomla, WordPress, React и других технологиях. Кейсы, стек, ниши и примеры выполненных работ.',
+  title: 'Портфолио веб-разработчика | Реализованные проекты',
+  description: 'Примеры разработанных сайтов на Bitrix и React. Интернет-магазины, корпоративные сайты, лендинги и веб-приложения.',
 
   openGraph: {
-    title: 'Проекты и кейсы разработки сайтов - Lorian',
-    description: 'Проекты разработки сайтов на Bitrix, Joomla, WordPress, React и других технологиях. Кейсы, стек, ниши и примеры выполненных работ.',
+    title: 'Портфолио веб-разработчика | Реализованные проекты',
+    description: 'Примеры разработанных сайтов на Bitrix и React. Интернет-магазины, корпоративные сайты, лендинги и веб-приложения.',
     url: 'https://lorian.su/projects/',
     siteName: 'Lorian',
     locale: 'ru_RU',

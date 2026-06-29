@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import InteractiveComponent from './interactive-component';
 
 export const metadata: Metadata = {
-  title: 'Разработка на React и Next.js - сайты и веб-приложения',
-  description: 'Разработка сайтов, интерфейсов и веб-приложений на React и Next.js: SSR/SSG, компоненты, формы, SEO-структура, интеграции и поддержка.',
+  title: 'Разработка сайтов на React и Next.js | Frontend разработка',
+  description: 'Разработка современных сайтов и веб-приложений на React и Next.js. Высокая скорость работы, SEO, SSR и индивидуальная разработка.',
 
   openGraph: {
-    title: 'Разработка на React и Next.js - сайты и веб-приложения',
-    description: 'Разработка сайтов, интерфейсов и веб-приложений на React и Next.js: SSR/SSG, компоненты, формы, SEO-структура, интеграции и поддержка.',
+    title: 'Разработка сайтов на React и Next.js | Frontend разработка',
+    description: 'Разработка современных сайтов и веб-приложений на React и Next.js. Высокая скорость работы, SEO, SSR и индивидуальная разработка.',
     url: 'https://lorian.su/services/react-nextjs/',
     siteName: 'Lorian',
     locale: 'ru_RU',

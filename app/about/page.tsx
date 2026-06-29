@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import InteractiveComponent from './interactive-component'
 
 export const metadata: Metadata = {
-  title: 'О разработчике - Данила Мохнаткин, Lorian',
-  description: 'Данила Мохнаткин - full-stack developer. Разработка сайтов, интерфейсов, CMS-проектов, React, Next.js, Bitrix, SEO-правки и интеграции.',
+  title: 'О разработчике | Данила Мохнаткин',
+  description: 'Меня зовут Данила Мохнаткин. Занимаюсь разработкой сайтов на Bitrix и React, создаю веб-проекты под ключ для бизнеса.',
 
   openGraph: {
-    title: 'О разработчике - Данила Мохнаткин, Lorian',
-    description: 'Данила Мохнаткин - full-stack developer. Разработка сайтов, интерфейсов, CMS-проектов, React, Next.js, Bitrix, SEO-правки и интеграции.',
+    title: 'О разработчике | Данила Мохнаткин',
+    description: 'Меня зовут Данила Мохнаткин. Занимаюсь разработкой сайтов на Bitrix и React, создаю веб-проекты под ключ для бизнеса.',
     url: 'https://lorian.su/about/',
     siteName: 'Lorian',
     locale: 'ru_RU',
